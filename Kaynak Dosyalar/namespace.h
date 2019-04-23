@@ -4,7 +4,7 @@
 /* 
 	Samet Sevindik
 	Furkan Bağ
-	Gökhan Pýnarcı
+	Gökhan Pınarcı
 	Ali Contarlı
 	Fatih Mehmet Gümüşçü
 	
