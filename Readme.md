@@ -1,3 +1,3 @@
-�i�li Anadolu Lisesi'nin T�B�TAK 4006 �AL uygulamas�d�r.
+Şişli Anadolu Lisesi'nin TÜBİTAK 4006 ŞAL uygulamasıdır.
 
-�leti�im: SametHUB732@gmail.com
+İletişim: SametHUB732@gmail.com
