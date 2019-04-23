@@ -1,3 +1,3 @@
-Þiþli Anadolu Lisesi'nin TÜBÝTAK 4006 ÞAL uygulamasýdýr.
+ï¿½iï¿½li Anadolu Lisesi'nin Tï¿½Bï¿½TAK 4006 ï¿½AL uygulamasï¿½dï¿½r.
 
-Ýletiþim: SametHUB732@gmail.com
+ï¿½letiï¿½im: SametHUB732@gmail.com
