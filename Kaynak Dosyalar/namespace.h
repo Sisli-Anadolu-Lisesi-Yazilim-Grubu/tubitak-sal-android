@@ -3,10 +3,10 @@
 
 /* 
 	Samet Sevindik
-	Furkan Bağ
-	Gökhan Pınarcı
-	Ali Contarlı
-	Fatih Mehmet Gümüşçü
+	Furkan BaÄŸ
+	GÃ¶khan PÃ½narcÄ±
+	Ali ContarlÄ±
+	Fatih Mehmet GÃ¼mÃ¼ÅŸÃ§Ã¼
 	
 	v1.0
 	22.04.2019
