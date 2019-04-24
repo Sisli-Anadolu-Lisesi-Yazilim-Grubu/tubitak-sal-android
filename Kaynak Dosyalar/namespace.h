@@ -15,6 +15,7 @@
 setlocale(LC_ALL, "Turkish");
 
 namespace TUBITAK {
+	
 	class proje1;
 	class proje2;
 	class proje3;
@@ -39,4 +40,5 @@ namespace TUBITAK {
 	class proje22;
 	class proje23;
 	class proje24;
+	
 }
