@@ -3,7 +3,9 @@
 using namespace TUBITAK;
 
 class proje21 {
+    
 public:
+    
     string baslik21;
     string materyaller21;
     string yontemler21;
@@ -26,6 +28,8 @@ public:
         hipotez21 = "Olasılık konusunu oyun ve akran öğrenimi ile birleştirirsek daha rahat öğrenebiliriz.";
         arastirma21 = "Günümüzde birçok matematik konularını çalışmak yerine zorluğundan yakınıyor ve kalan boş zamanlarını da oyunların başında geçiriyor. Oyunlarla ayırdıkları vakit azalmazsa hem kendileri hem de ülkemiz matematik konusunda geri kalacak.";
         sonuc21  = "Bu oyun sayesinde: Öğrencilerin hızlı düşünebilme özelliği gelişim göstermiştir. Olasılık hesabını kavrayabilme yetenekleri artmıştır. Matematik dersine olan ilgilerinin artması sağlanmıştır. Kubaşık öğrenme yöntemi ile öğrencinin olasılık hesabını öğrenmesi kolaylaşmıştır. Oyunun öğrenime katkısı olduğu gözlemlenmiştir. Eğlence öğrencilerde olumlu etki yaratmış ve özgüvenlerini geliştirmiştir.";
-        bek
+        beklenti21 = "Öğrencilere matematiği sevdirmek. Olasılık konusunda farkındalık oluşturmak. Matematiksel düşünme becerisinin gündelik yaşamda da kullanılmasını sağlamak.Öğrenme sırasında sosyal etkileşimi sağlamak. Öğrencilere yorum yapabilme yeteneği kazandırmak. Keyif verici bir öğrenme ortamı hazırlamak. Öğrencilere boş vakitlerinde kaliteli zaman geçirebilecekleri bir etkinlik kazandırmak. Öğrencilere bir sayının rakamlarının yerlerini değiştirerek kombinasyon hesabını öğretmek. Akılcı ve doğru düşünmeyi sağlayarak diğer derslerdeki başarısına da katkıda bulunmak. Oyun vasıtası ile motivasyon ve özgüven gelişimini desteklemek. Akran öğrenmesini yaygınlaştırmak";
+        oneri21 =  "1-Oyunu daha da zorlaştırmak için oyuna renkler de eklenip onlar da tahmin edilmeye çalışılabilir. 2-Oyunun başında söylenecek dört basamaklı rakam ardışık olarak sıralı basamaklara sahip olursa karşı takımın tuttuğu sayıyı bulmak kolaylaşır. 3-Bir rakama odaklanmak yerine tüm rakamların olasılığı düşünülmelidir";
+    
     }
 };
