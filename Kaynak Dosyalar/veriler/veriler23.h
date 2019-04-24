@@ -28,4 +28,5 @@ sonuclar23 = "Hypatia,  döneminin gerici zihniyetine rağmen bilim yapmak istey
 oneriler_ve_beklentiler23 = "O dönemlerden bugüne dek kadın toplumda hep geri plana atılmalı ve yok sayılmak istenmiştir fakat bundan sonra hayatın her alanında kadının varlığını kabul etmeli ve onlara kendilerini özgürce gerçekleştirebilecekleri bir ortam sağlamalıyız. Bu dünyanın yarısı kadınlardan oluşmaktadır , etrafımızda bir kadına nasıl davranacağımızı düşünürken buna hep dikkat etmeliyiz .Çevremizde bulunan bütün kadın bireyleri , eşleri , kızları , anneleri , dostları , okumayan bütün kadınları okutmalı ve bilinçlendirmeliyiz. Aynı zamanda artık 21. yüzyıla gelmişken özellikle kendi toplumumuz olmak üzere geriye kalan bütün insanlardan kadınlara  saygı duyulmasını ve onların da birer birey olduklarını , özgür ve söz sahibi canlılar olduklarını , hayatın her alanında olduklarını ve olmaya da dsvam edeceklerini kabul etmelerini bekliyoruz.";
 }
 
+  
 };
