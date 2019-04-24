@@ -9,11 +9,11 @@ class proje1 {
 		string oneriler_ve_beklentiler;
 		
 		proje1(){
-			baslik = "ŞİŞLİ'NİN DÜNÜ VE BUGÜNÜ";
-			kullanilan_materyaller = "Fotoğraf Makinesi";
-			uygulanan_yontemler,analiz_sonuclari = "Gezi - Gözlem - Araştırma";
-			ozet = "İstanbul tarih boyunca önemli bir şehir olmuştur.Şişli de İstanbul'un önemli semtlerinden biridir.Bu proje ile tarih boyunca Şişli'nin geçirdiği dönüşümü ortaya çıkarmayı amaçlıyoruz";
-			oneriler_ve_beklentiler = "• Şişli'de AVM ve gökdelenlerin çokolduğu için yüksek binaların yapılması önlenmelidir. alanların çoğaltılması gerekmektedir•Otopark sorununu çözmek için yer altına otopark yapılmalıdır.•Dikey mimari yerine yatay mimariyeönem verilmelidir.";
+			baslik = "ÅÄ°ÅLÄ°'NÄ°N DÃœNÃœ VE BUGÃœNÃœ";
+			kullanilan_materyaller = "FotoÄŸraf Makinesi";
+			uygulanan_yontemler,analiz_sonuclari = "Gezi - GÃ¶zlem - AraÅŸtÄ±rma";
+			ozet = "Ä°stanbul tarih boyunca Ã¶nemli bir ÅŸehir olmuÅŸtur.ÅiÅŸli de Ä°stanbul'un Ã¶nemli semtlerinden biridir.Bu proje ile tarih boyunca ÅiÅŸli'nin geÃ§irdiÄŸi dÃ¶nÃ¼ÅŸÃ¼mÃ¼ ortaya Ã§Ä±karmayÄ± amaÃ§lÄ±yoruz";
+			oneriler_ve_beklentiler = " ÅiÅŸli'de AVM ve gÃ¶kdelenlerin Ã§okolduÄŸu iÃ§in yÃ¼ksek binalarÄ±n yapÄ±lmasÄ± Ã¶nlenmelidir. alanlarÄ±n Ã§oÄŸaltÄ±lmasÄ± gerekmektedir. Otopark sorununu Ã§Ã¶zmek iÃ§in yer altÄ±na otopark yapÄ±lmalÄ±dÄ±r. Dikey mimari yerine yatay mimariyeÃ¶nem verilmelidir.";
 			
 		}
 };
