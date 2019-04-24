@@ -1,2 +1,1 @@
-Hocam uygulama açılırken ŞAL yazan bir logo düşünüyoruz bunu ali yapıcak.
-Taslak da arkaplan mavi yerine arkaplan.jpg yi koymayı düşünüyoruz.
+TaslaklarÄ± iÃ§eren klasÃ¶r. arkaplan.jpg uygulamanÄ±n arkaplanÄ± olacaktÄ±r...
