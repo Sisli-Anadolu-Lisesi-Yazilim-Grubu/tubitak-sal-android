@@ -5,14 +5,14 @@ using namespace TUBITAK;
 class proje4{	
 public:
 string baslik4;
-string kullanılan_materyaller4;
+string kullanÄ±lan_materyaller4;
 string uygulanan_yontemler4;
 string ozet4;
 
 proje4(){
-string baslik4 ="İSTANBUL`DA YAŞAMIŞ EDEBİYATÇILAR VE EVLERİ";
-string kullanılan_materyaller4= "Fotoğraf makinesi";
-string uygulanan_yontemler4 = "Gezi-Gözlem-Araştırma";
-string ozet4 = "İstanbul`da yaşamış edebiyatçıların evlerinin yerleri araştırılarak tespit edildi.Bu evlere gidilerek fotoğrafları çekildi.Evlerin ve edebiyatçıların fotoğrafları bir araya getirilerek bir şiiriyle birleştirildi.";	
+string baslik4 ="Ä°STANBUL`DA YAÅAMIÅ EDEBÄ°YATÃ‡ILAR VE EVLERÄ°";
+string kullanÄ±lan_materyaller4= "FotoÄŸraf makinesi";
+string uygulanan_yontemler4 = "Gezi-GÃ¶zlem-AraÅŸtÄ±rma";
+string ozet4 = "Ä°stanbul`da yaÅŸamÄ±ÅŸ edebiyatÃ§Ä±larÄ±n evlerinin yerleri araÅŸtÄ±rÄ±larak tespit edildi. Bu evlere gidilerek fotoÄŸraflarÄ± Ã§ekildi. Evlerin ve edebiyatÃ§Ä±larÄ±n fotoÄŸraflarÄ± bir araya getirilerek bir ÅŸiiriyle birleÅŸtirildi. ";	
 }
 };
