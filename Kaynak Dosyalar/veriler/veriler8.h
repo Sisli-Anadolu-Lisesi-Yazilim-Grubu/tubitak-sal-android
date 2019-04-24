@@ -15,14 +15,14 @@ class proje8 {
 		string oneriler8;
 		
 		proje8() {
-			baslik8 = "GÖRMEDEN KALKAN ENGELLER";
-			materyaller8 = "Pil, pil yatağı, Ayakkabı, Sensör, Titreşim motoru, Batarya";
-			yontemler8 = "En başta görme engellilerin çektiği sıkıntılar araştırılıp gözlemlendi. Daha sonra görüldü ki en büyük sorun önünde olan engeller. Buradan yola çıkılarak ayakkabının planı oluşturuldu. Önce sensör eklendi. Daha sonra gürültülü ortamlar düşünülerek titreşim özelliği de eklendi. Ayakkabının belli bir mesafeden hem titreyip hem ötmesi planlandı.";
-			ozet8 = "Bu projeyi görme engellilerin yürüme sorununu ortadan kaldırıp onların hayatını kolaylaştırması için tasarladık. Ayakkabı belli bir mesafeden önüne engel çıkınca ötüyor ve titriyor. Bu sayede görme engelliler görmese bile engel ortadan kalkıyor. Günlük hayatta da dikkat edilirse görünecek ki engeli olanlar zorluk çekiyor. Biz bu projeyi yaparak onların çektikleri sıkıntılardan birini çözüme kavuşturmak istedik. Sensör koyarak görme engellilerin o engeli görmesini sağladık. Ama sonra düşündük ki gürültülü ortamlar ne olacak? Titreşimler olması hem gürültülü ortamlar için hem de sesten rahatsız olanlar için güzel bir uygulama.";
-			hipotez8 = "Görme engelliler yürüme sorunu çekiyorlar.";
-			arastirma8 = "Etrafta görme engellileri rahatsız edebilecek bir sürü sorun var. Yürümelerini engelleyecek birçok engel var (kaldırımlardaki arabalar vs.). Onların bu sorunlarını çoğu insan göz ardı ediyor. Bu sorunlarına çözüm bulursak onları mutlu edebiliriz.";
-			analiz_sonuc8 = "Gözlem sonunda ayakkabı test edildi. Ayakkabının çalışıp belirli bir mesafeden engel çıkınca ötüp titrediği gözlemlendi.";
-			sonuc8 = "En başta sadece sensör eklendi. Daha sonra titreşim motoru eklendi. Sonrasında ayakkabımız bu şekli aldı. En sonunda test edilip çalıştığı gözlemlendi.";
-			oneriler8 = "Görme engellilere ve diğer engeli olan insanlara hassasiyetin artması ve bu ayakkabını işe yarayıp görme engellileri mutlu etmesini bekliyoruz.";
+			baslik8 = "GÃ–RMEDEN KALKAN ENGELLER";
+			materyaller8 = "Pil, pil yataÄŸÄ±, AyakkabÄ±, SensÃ¶r, TitreÅŸim motoru, Batarya";
+			yontemler8 = "En baÅŸta gÃ¶rme engellilerin Ã§ektiÄŸi sÄ±kÄ±ntÄ±lar araÅŸtÄ±rÄ±lÄ±p gÃ¶zlemlendi. Daha sonra gÃ¶rÃ¼ldÃ¼ ki en bÃ¼yÃ¼k sorun Ã¶nÃ¼nde olan engeller. Buradan yola Ã§Ä±kÄ±larak ayakkabÄ±nÄ±n planÄ± oluÅŸturuldu. Ã–nce sensÃ¶r eklendi. Daha sonra gÃ¼rÃ¼ltÃ¼lÃ¼ ortamlar dÃ¼ÅŸÃ¼nÃ¼lerek titreÅŸim Ã¶zelliÄŸi de eklendi. AyakkabÄ±nÄ±n belli bir mesafeden hem titreyip hem Ã¶tmesi planlandÄ±.";
+			ozet8 = "Bu projeyi gÃ¶rme engellilerin yÃ¼rÃ¼me sorununu ortadan kaldÄ±rÄ±p onlarÄ±n hayatÄ±nÄ± kolaylaÅŸtÄ±rmasÄ± iÃ§in tasarladÄ±k. AyakkabÄ± belli bir mesafeden Ã¶nÃ¼ne engel Ã§Ä±kÄ±nca Ã¶tÃ¼yor ve titriyor. Bu sayede gÃ¶rme engelliler gÃ¶rmese bile engel ortadan kalkÄ±yor. GÃ¼nlÃ¼k hayatta da dikkat edilirse gÃ¶rÃ¼necek ki engeli olanlar zorluk Ã§ekiyor. Biz bu projeyi yaparak onlarÄ±n Ã§ektikleri sÄ±kÄ±ntÄ±lardan birini Ã§Ã¶zÃ¼me kavuÅŸturmak istedik. SensÃ¶r koyarak gÃ¶rme engellilerin o engeli gÃ¶rmesini saÄŸladÄ±k. Ama sonra dÃ¼ÅŸÃ¼ndÃ¼k ki gÃ¼rÃ¼ltÃ¼lÃ¼ ortamlar ne olacak? TitreÅŸimler olmasÄ± hem gÃ¼rÃ¼ltÃ¼lÃ¼ ortamlar iÃ§in hem de sesten rahatsÄ±z olanlar iÃ§in gÃ¼zel bir uygulama.";
+			hipotez8 = "GÃ¶rme engelliler yÃ¼rÃ¼me sorunu Ã§ekiyorlar.";
+			arastirma8 = "Etrafta gÃ¶rme engellileri rahatsÄ±z edebilecek bir sÃ¼rÃ¼ sorun var. YÃ¼rÃ¼melerini engelleyecek birÃ§ok engel var (kaldÄ±rÄ±mlardaki arabalar vs.). OnlarÄ±n bu sorunlarÄ±nÄ± Ã§oÄŸu insan gÃ¶z ardÄ± ediyor. Bu sorunlarÄ±na Ã§Ã¶zÃ¼m bulursak onlarÄ± mutlu edebiliriz. ";
+			analiz_sonuc8 = "GÃ¶zlem sonunda ayakkabÄ± test edildi. AyakkabÄ±nÄ±n Ã§alÄ±ÅŸÄ±p belirli bir mesafeden engel Ã§Ä±kÄ±nca Ã¶tÃ¼p titrediÄŸi gÃ¶zlemlendi. ";
+			sonuc8 = "En baÅŸta sadece sensÃ¶r eklendi. Daha sonra titreÅŸim motoru eklendi. SonrasÄ±nda ayakkabÄ±mÄ±z bu ÅŸekli aldÄ±. En sonunda test edilip Ã§alÄ±ÅŸtÄ±ÄŸÄ± gÃ¶zlemlendi. ";
+			oneriler8 = "GÃ¶rme engellilere ve diÄŸer engeli olan insanlara hassasiyetin artmasÄ± ve bu ayakkabÄ±nÄ± iÅŸe yarayÄ±p gÃ¶rme engellileri mutlu etmesini bekliyoruz. ";
 		}
 };
