@@ -12,7 +12,7 @@ public:
     string hipotez13;
     string arastirma13;
     string sonuc13;
-    string oneriler 13;
+    string oneriler13;
 
     proje() {
         baslik13 = "KIRMIZI MAVİ";
