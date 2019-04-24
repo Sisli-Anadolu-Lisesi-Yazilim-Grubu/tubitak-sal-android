@@ -15,7 +15,7 @@ class proje12 {
 
     proje12() {
         baslik12 = "KASİSLERE SON";
-        materyaller12 = "1)Güneş enerjisi paneli 2)Lehim makinesit 3)Mıknatıs 4)Kaynak makinesi 5)Led ampül";
+        materyaller12 = "1) Güneş enerjisi paneli 2) Lehim makinesit 3) Mıknatıs 4) Kaynak makinesi 5) Led ampül";
         ozet12 = "Güçlü mıknatıslar sayesinde arabaları yavaşlatıp durduruyoruz. Yollara uyarı tabelası konulmalı çünkü yüksek hızla gelen bir aracın kaza yapma oranı yüksek. Projeden gözüken kazaların oranında azalma olacağına inanılıyor.Tüm ülkelerde yaşanan kırmızı ışık ihlalinden dolayı kazalar yaşamakta bizde bu kazaları önlemek için bu projeyi tasarladık.";
         hipotez12 = "Günlük hayatta trafik esnasında trafik ışıkları çok büyük bir önleme sahiptir.Bu proje ile trafik ışıklarına dikkat etmeden sürücülerin nasıl durdurulacağına tespit etmek";
         arastirma12 = "Yayaların kırmızı ışık ihlali yapan sürücülerden şikayetçi olması gibi birçok sorun var. Projem sayesinde bu insanların sorunlarına açıklığı kavuşturabiliriz.";
