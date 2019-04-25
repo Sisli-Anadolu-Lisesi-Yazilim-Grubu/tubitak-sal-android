@@ -10,12 +10,12 @@ class proje1 {
 		string oneriler_ve_beklentiler;
 		
 		proje1(){
-			baslik = "ŞİŞLİ'NİN DÜNÜ VE BUGÜNÜ";
-			kullanilan_materyaller = "Fotoğraf Makinesi";
-			uygulanan_yontemler = "Gezi - Gözlem - Araştırma";
-			analiz_sonuclari =  "Şişli de tarihi dokunun korunamadığı; AVM ve gökdelenlerin sayısının fazla olduğu, yeşil alanın az olduğu görülmüştür.";
-			ozet = "İstanbul tarih boyunca önemli bir şehir \n olmuştur.Şişli de İstanbul'un önemli \n semtlerinden biridir.Bu proje ile tarih boyunca Şişli'nin geçirdiği dönüşümü ortaya çıkarmayı amaçlıyoruz";
-			oneriler_ve_beklentiler = " Şişli'de AVM ve gökdelenler çok olduğu için yüksek binaların yapılması önlenmelidir. Yeşil alanların çoğaltılması gerekmektedir. Otopark sorununu çözmek için yer altına otopark yapılmalıdır. Dikey mimari yerine yatay mimariye önem verilmelidir.";
+			baslik = "ŞİŞLİ'NİN DÜNÜ VE BUGÜNÜ \n";
+			kullanilan_materyaller = "Fotoğraf Makinesi \n";
+			uygulanan_yontemler = "Gezi - Gözlem - Araştırma \n";
+			analiz_sonuclari =  "Şişli de tarihi dokunun korunamadığı; AVM ve gökdelenlerin sayısının fazla olduğu, yeşil alanın az olduğu görülmüştür. \n";
+			ozet = "İstanbul tarih boyunca önemli bir şehir \n olmuştur.Şişli de İstanbul'un önemli \n semtlerinden biridir.Bu proje ile tarih boyunca Şişli'nin geçirdiği dönüşümü ortaya çıkarmayı amaçlıyoruz \n";
+			oneriler_ve_beklentiler = " Şişli'de AVM ve gökdelenler çok olduğu için yüksek binaların yapılması önlenmelidir. Yeşil alanların çoğaltılması gerekmektedir. Otopark sorununu çözmek için yer altına otopark yapılmalıdır. Dikey mimari yerine yatay mimariye önem verilmelidir. \n";
 			
 		}
 };
