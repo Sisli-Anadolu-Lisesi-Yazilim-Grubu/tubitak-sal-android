@@ -15,14 +15,14 @@ class proje8 {
 		string oneriler_ve_beklentiler8;
 		
 		proje8() {
-			baslik8 = "GÖRMEDEN KALKAN ENGELLER";
+			baslik8 = "GÖRMEDEN KALKAN ENGELLER\n";
 			materyaller8 = "Pil, pil yatağı, Ayakkabı, Sensör, Titreşim motoru, Batarya";
-			uygulanan_yontemler8 = "En başta görme engellilerin çektiği sıkıntılar araştırılıp gözlemlendi. Daha sonra görüldü ki en büyük sorun önünde olan engeller. Buradan yola çıkılarak ayakkabının planı oluşturuldu. Önce sensör eklendi. Daha sonra gürültülü ortamlar düşünülerek titreşim özelliği de eklendi. Ayakkabının belli bir mesafeden hem titreyip hem ötmesi planlandı.";
-			ozet8 = "Bu projeyi görme engellilerin yürüme sorununu ortadan kaldırıp, onların hayatını kolaylaştırması için tasarladık. Ayakkabı belli bir mesafeden önüne engel çıkınca ötüyor ve titriyor. Bu sayede görme engelliler görmese bile engel ortadan kalkıyor. Günlük hayatta da dikkat edilirse görünecek ki engeli olanlar zorluk çekiyor. Biz bu projeyi yaparak onların çektikleri sıkıntılardan birini çözüme kavuşturmak istedik. Sensör koyarak görme engellilerin o engeli görmesini sağladık. Ama sonra düşündük ki gürültülü ortamlar ne olacak? Titreşimler olması hem gürültülü ortamlar için hem de sesten rahatsız olanlar için güzel bir uygulama.";
-			hipotez8 = "Görme engelliler yürüme sorunu çekiyorlar.";
-			arastirma8 = "Etrafta görme engellileri rahatsız edebilecek bir sürü sorun var. Yürümelerini engelleyecek birçok engel var (kaldırımlardaki arabalar vs.). Onların bu sorunlarını çoğu insan göz ardı ediyor. Bu sorunlarına çözüm bulursak onları mutlu edebiliriz. ";
-			analiz_sonuclari8 = "Gözlem sonunda ayakkabı test edildi. Ayakkabının çalışıp belirli bir mesafeden engel çıkınca ötüp titrediği gözlemlendi. ";
-			sonuc8 = "En başta sadece sensör eklendi. Daha sonra titreşim motoru eklendi. Sonrasında ayakkabımız bu şekli aldı. En sonunda test edilip çalıştığı gözlemlendi. ";
-			oneriler_ve_beklentiler8 = "Görme engellilere ve diğer engeli olan insanlara hassasiyetin artması ve bu ayakkabını işe yarayıp görme engellileri mutlu etmesini bekliyoruz. ";
+			uygulanan_yontemler8 = "En başta görme engellilerin çektiği sıkıntılar araştırılıp gözlemlendi.\n Daha sonra görüldü ki en büyük sorun önünde olan engeller.\n Buradan yola çıkılarak ayakkabının planı oluşturuldu.\n Önce sensör eklendi.\n Daha sonra gürültülü ortamlar düşünülerek titreşim özelliği de eklendi.\n Ayakkabının belli bir mesafeden hem titreyip hem ötmesi planlandı.\n";
+			ozet8 = "Bu projeyi görme engellilerin yürüme sorununu ortadan kaldırıp, onların hayatını kolaylaştırması için tasarladık.\n Ayakkabı belli bir mesafeden önüne engel çıkınca ötüyor ve titriyor.\n Bu sayede görme engelliler görmese bile engel ortadan kalkıyor.\n Günlük hayatta da dikkat edilirse görünecek ki engeli olanlar zorluk çekiyor.\n Biz bu projeyi yaparak onların çektikleri sıkıntılardan birini çözüme kavuşturmak istedik.\n Sensör koyarak görme engellilerin o engeli görmesini sağladık.\n Ama sonra düşündük ki gürültülü ortamlar ne olacak?\n Titreşimler olması hem gürültülü ortamlar için hem de sesten rahatsız olanlar için güzel bir uygulama.\n";
+			hipotez8 = "Görme engelliler yürüme sorunu çekiyorlar.\n";
+			arastirma8 = "Etrafta görme engellileri rahatsız edebilecek bir sürü sorun var.\n Yürümelerini engelleyecek birçok engel var (kaldırımlardaki arabalar vs.).\n Onların bu sorunlarını çoğu insan göz ardı ediyor.\n Bu sorunlarına çözüm bulursak onları mutlu edebiliriz.\n ";
+			analiz_sonuclari8 = "Gözlem sonunda ayakkabı test edildi.\n Ayakkabının çalışıp belirli bir mesafeden engel çıkınca ötüp titrediği gözlemlendi.\n ";
+			sonuc8 = "En başta sadece sensör eklendi.\n Daha sonra titreşim motoru eklendi.\n Sonrasında ayakkabımız bu şekli aldı.\n En sonunda test edilip çalıştığı gözlemlendi.\n ";
+			oneriler_ve_beklentiler8 = "Görme engellilere ve diğer engeli olan insanlara hassasiyetin artması ve bu ayakkabını işe yarayıp görme engellileri mutlu etmesini bekliyoruz.\n ";
 		}
 };
