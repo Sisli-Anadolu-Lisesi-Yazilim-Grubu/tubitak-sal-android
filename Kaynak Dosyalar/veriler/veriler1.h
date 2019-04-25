@@ -14,8 +14,8 @@ class proje1 {
 			kullanilan_materyaller = "Fotoğraf Makinesi \n";
 			uygulanan_yontemler = "Gezi - Gözlem - Araştırma \n";
 			analiz_sonuclari =  "Şişli de tarihi dokunun korunamadığı; AVM ve gökdelenlerin sayısının fazla olduğu, yeşil alanın az olduğu görülmüştür. \n";
-			ozet = "İstanbul tarih boyunca önemli bir şehir \n olmuştur. \n Şişli de İstanbul'un önemli semtlerinden biridir. \n Bu proje ile tarih boyunca Şişli'nin geçirdiği dönüşümü ortaya çıkarmayı amaçlıyoruz \n";
-			oneriler_ve_beklentiler = " Şişli'de AVM ve gökdelenler çok olduğu için yüksek binaların yapılması önlenmelidir. \n Yeşil alanların çoğaltılması gerekmektedir. \n Otopark sorununu çözmek için yer altına otopark yapılmalıdır. \n Dikey mimari yerine yatay mimariye önem verilmelidir. \n";
+			ozet = "İstanbul tarih boyunca önemli bir şehir \nolmuştur. \nŞişli de İstanbul'un önemli semtlerinden biridir. \nBu proje ile tarih boyunca Şişli'nin geçirdiği dönüşümü ortaya çıkarmayı amaçlıyoruz \n";
+			oneriler_ve_beklentiler = " Şişli'de AVM ve gökdelenler çok olduğu için yüksek binaların yapılması önlenmelidir. \nYeşil alanların çoğaltılması gerekmektedir. \nOtopark sorununu çözmek için yer altına otopark yapılmalıdır. \nDikey mimari yerine yatay mimariye önem verilmelidir. \n";
 			
 		}
 };
