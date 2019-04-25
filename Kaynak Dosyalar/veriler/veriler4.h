@@ -13,6 +13,6 @@ proje4(){
 string baslik4 ="İSTANBUL`DA YAŞAMIŞ EDEBİYATÇILAR VE EVLERİ \n";
 string kullanılan_materyaller4= "Fotoğraf makinesi \n";
 string uygulanan_yontemler4 = "Gezi-Gözlem-Araştırma \n";
-string ozet4 = "İstanbul`da yaşamış edebiyatçıların evlerinin yerleri araştırılarak tespit edildi. \n Bu evlere gidilerek fotoğrafları çekildi. \n Evlerin ve edebiyatçıların fotoğrafları bir araya getirilerek bir şiiriyle birleştirildi. \n ";	
+string ozet4 = "İstanbul`da yaşamış edebiyatçıların evlerinin yerleri araştırılarak tespit edildi. \nBu evlere gidilerek fotoğrafları çekildi. \nEvlerin ve edebiyatçıların fotoğrafları bir araya getirilerek bir şiiriyle birleştirildi. \n ";	
 }
 };
