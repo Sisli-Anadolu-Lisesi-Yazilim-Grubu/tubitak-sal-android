@@ -17,7 +17,7 @@ class proje10 {
 		proje10() {
 			
 		baslik10="YÜRÜYEN KRİSTALLER\n";
-		kullanilan_materyaller10 ="Birkaç adet piezo, Li-Po batarya, akım dönüştürücü için 4 adet diyot, kullanılmayan geniş tabanlı bir spor ayakkabı kullandık.\n";
+		kullanilan_materyaller10 ="Birkaç adet piezo \nLi-Po batarya \nakım dönüştürücü için 4 adet diyot \nkullanılmayan geniş tabanlı bir spor ayakkabı kullandık.\n";
 		uygulanan_yontem10 ="Devremizi  tamamladıktan sonra ayakkabının tabanına uygun bir şekilde yerleştirdik.\nDaha sonra yürüyüş yaparak test ettik.\nBataryanın sarj olup olmadığından emin olmak için yürüyüşten sonra bir led ile kontrol ettik.\n";
 		analiz_sonuclari10 ="Test sonucuna göre piezolar ile elektrik üretmenin mümkün olduğunda kanıtlamış olduk.\nDaha iyi bir tasarım ve devre ile bu fikrin ileride, günlük hayatta önemli bir yeri olacağıma inanıyoruz.\n";
 		proje_ozeti10 ="Elektrik üretmenin alternarif yollarını ararken, piezo kristallerin üretebileceğini fark ettik.\nBunun üzerine tasarladığımız ayakkabıda, bu yöntem ile günlük hareketlerimizden elektrik üreterek bunu kullanmayı amaçladık.\n";
