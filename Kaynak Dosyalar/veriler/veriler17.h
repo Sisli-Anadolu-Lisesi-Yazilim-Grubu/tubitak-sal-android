@@ -17,9 +17,9 @@ class proje17 {
 		
 		proje17() {
 		baslik17="VİTAMİNLİ REJENERASYON\n";	
-		kullanilan_materyaller17="2 adet toprak solucanı 2 özdeş beher Su Vitamin (Karma) Cetvel hassas tartı\n";
+		kullanilan_materyaller17="2 adet toprak solucanı \n2 özdeş beher \nSu \nVitamin (Karma) \nCetvel \nhassas tartı\n";
 		metot17="Topraktan iki adet toprak solucanı buduk.\nBirini 0.9 gram ve 9 cm, diğerini ise 0.7 gram 12 cm olarak ölçtük.\nTopraktan bulmuş olduğumuz bu iki adet toprak solucanını ikiye böldük. 0.4 ve 0.5 gram olacak şekilde iki solucan parçası elde ettik. İki solucanın kafa kısmını kullandık. İki kaba da eşit miktarda toprak koyduk. Seçtiğimiz bir solucanın toprağına bir miktar vitamin ve su ekledik. Diğer solucanın toprağına ise sadece su ekledik. Daha sonra düzenli olarak iki günde bir solucanlarımızı kontrol edip, vitamin ve su takviyesi yaptık. İlk gün vitaminsiz solucan zayıflarken, vitaminli solucanda herhangi bir değişim gözlenmedi.";
-		ozet17="Günlük yaşantımızda geçirdiğimiz ufacık kazalar maalesef bazen bizler için bir takım sorunlara yol açmakta.\nNormal derecede bir açık yaranın kapanması iki, üç gün almaktadır.\nBu süreç zarfında açık yaralar iltihaplanma sonucunda ise yüksek ateşlenme sonucu dirençsiz vücut bebeklerde kalıcı hasara yol açmaktadır.\n Ben de bunu engellemek amacı ile rejenerasyon nasıl etkilediğini ölçen bir deney yaptım.\n";
+		ozet17="Günlük yaşantımızda geçirdiğimiz ufacık kazalar maalesef bazen bizler için bir takım sorunlara yol açmakta.\nNormal derecede bir açık yaranın kapanması iki, üç gün almaktadır.\nBu süreç zarfında açık yaralar iltihaplanma sonucunda ise yüksek ateşlenme sonucu dirençsiz vücut bebeklerde kalıcı hasara yol açmaktadır.\nBen de bunu engellemek amacı ile rejenerasyon nasıl etkilediğini ölçen bir deney yaptım.\n";
 		soru17="Vitaminler rejenerasyon üzerinde etkili midir?\n";
 		hipotez17="Vitaminler rejenerasyon hızını arttırır.\n";
 		konu_arastirmasi17="Türk edebiyatında iz bırakmış önemli şairlerin hayatlarını derinden etkileyen olayları araştırmak ve bu olayların onların sanat anlayışlarına özellikle de şiirlerine ne gibi etkileri olduğunu tespit etmek.\n";
