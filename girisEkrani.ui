@@ -43,7 +43,7 @@
         <item>
          <widget class="QGraphicsView" name="graphicsView">
           <property name="styleSheet">
-           <string notr="true">border-image: url(:/sal-logo/resimler/sal-logo.png);</string>
+           <string notr="true">border-image: url(:/sal-logo/resimler/sal-logo.jpg);</string>
           </property>
          </widget>
         </item>
@@ -66,8 +66,6 @@
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="TUBITAK4006SAL.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

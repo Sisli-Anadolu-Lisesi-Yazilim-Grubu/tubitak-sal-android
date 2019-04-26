@@ -54,7 +54,7 @@ border-image: url(:/arkaplan/resimler/Arkaplan.PNG);
        </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="okulAdi">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
         </property>
@@ -63,7 +63,7 @@ border-image: url(:/arkaplan/resimler/Arkaplan.PNG);
 background-color: rgb(255, 255, 255);</string>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Proje Adı&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Şişli Anadolu Lisesi&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
