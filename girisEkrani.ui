@@ -32,7 +32,7 @@
    <string>TÜBİTAK 4006 ŞAL</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -43,7 +43,7 @@
         <item>
          <widget class="QGraphicsView" name="graphicsView">
           <property name="styleSheet">
-           <string notr="true">border-image: url(:/sal-logo/resimler/sal-logo.jpg);</string>
+           <string notr="true">border-image: url(:/sal-logo/resimler/sal-logo.png);</string>
           </property>
          </widget>
         </item>

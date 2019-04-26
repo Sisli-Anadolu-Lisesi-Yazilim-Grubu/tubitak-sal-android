@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/sal-logo">
-        <file>resimler/sal-logo.jpg</file>
+        <file>resimler/sal-logo.png</file>
     </qresource>
     <qresource prefix="/arkaplan">
         <file>resimler/Arkaplan.PNG</file>
