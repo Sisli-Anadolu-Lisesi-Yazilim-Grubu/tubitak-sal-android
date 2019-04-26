@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje11 {
     public:
-    string baslik11;
-    sttring metin11;
+    QString baslik11;
+    QString metin11;
 
     proje11() {
     baslik11 = "İLERİ DÜŞÜN GERİ DÖNÜŞTÜR\n MATERYALLER\n";
