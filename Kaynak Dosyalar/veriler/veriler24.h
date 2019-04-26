@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje24 {
 public:
-    string baslik24;
-    string metin24;
+    QString baslik24;
+    QString metin24;
     
     proje24() { 
     baslik24 = "ŞİŞLİDE YEREL TARİH FARKINDALIĞI \n";
