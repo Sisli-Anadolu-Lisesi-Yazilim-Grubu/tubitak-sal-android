@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje4{	
 public:
-string baslik4;
-string metin4;
+QString baslik4;
+QString metin4;
 
 proje4(){
 baslik4 = "İSTANBUL`DA YAŞAMIŞ EDEBİYATÇILAR VE EVLERİ \n";
