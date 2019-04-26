@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje2{	
 public:
-string baslik2;
-string metin2;
+QString baslik2;
+QString metin2;
 
 proje2(){
 baslik2 ="ARITILAN BAKTERİ \n";
