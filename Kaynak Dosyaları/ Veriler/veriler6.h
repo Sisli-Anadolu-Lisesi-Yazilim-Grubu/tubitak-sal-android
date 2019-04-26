@@ -2,13 +2,15 @@
 
 using namespace TUBITAK;
 
-class proje6{	
+class proje6 {
 public:
-QString baslik6;
-QString metin6;
+    string baslik6;
+    string metin6;
+    
 
-proje6(){
-baslik6 = "İSTANBUL`DA YAŞAMIŞ EDEBİYATÇILAR VE EVLERİ \n";
-metin6 = "KULLANILAN MATERYALLER\nFotoğraf makinesi \nUYGULANAN YÖNTEMLER\nGezi-Gözlem-Araştırma \nÖZET \nİstanbul`da yaşamış edebiyatçıların evlerinin yerleri araştırılarak tespit edildi. \nBu evlere gidilerek fotoğrafları çekildi. \nEvlerin ve edebiyatçıların fotoğrafları bir araya getirilerek bir şiiriyle birleştirildi. \n";	
-}
+    proje6() {
+    baslik6 = "Almanca Sıfatların Öğretilmesinin Oyunlaştırılması";
+    metin6 = "•Kullanılan materyallerÖzgün oyunlar• Özet:İkinci yabancı dil olarak öğretilen Almanca derslerinde öğrenciler bazı zorluklar yaşamaktadır.Bu nedenle de Almancanın öğrenilmesi zor bir dil olduğu gibi bir ön yargı oluşmuştur. Öğrenciler özellikle Almanca sıfatlar ve sıfatların farklı sözcük türü olarak kullanılması ya da sıfattan türetilmiş fiilleri öğrenmekte zorluk yaşamaktadır.Bu zorlukları konu içeriğine uygun oyunların derste kullanılması ile en aza indirebiliriz.•Sonuçlar:Almancanın sıfatları ve sıfatların farklı sözcük türü olarak kullanılmasını ya da sıfattan türetilmiş fillerin derste içeriğine uygun konularla işlemenin öğrencilerin ikinci yabancı dil Almancaya ilgilerini arttırmakla birlikte bu konuların öğrenilmesini de kolaylaştırdığı ve öğrenme sürecini hızlandırdığı gözlemlenmiştir.";
+    
+    }
 };
