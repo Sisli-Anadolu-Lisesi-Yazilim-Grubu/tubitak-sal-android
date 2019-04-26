@@ -2,17 +2,14 @@
 
 using namespace TUBITAK;
 
-class proje7{
+class proje7 {
 	public:
-	QString baslik7;
-	QString metin7;
+        QString baslik7;
+        QString metin7;
 	
-	
-	proje7(){
-		baslik7 = "GEN AKTARIMI\n";
-		metint7 = "ÖZET\nİnsan ırkı uzun zamandır besin zincirinin en tepesinde hayatını sürdürmektedir tabi bu tam olarak kesin değil ve belki de bir zamanlar en tepede değildik.\nİnsanları hayvanlardan ayıran çok önemli bir özellik vardır ki bu da akıldır.\nİnsan diğer canlıların aksine düşünür karar verir ve buna göre bir eyleme geçer fakat bir zamanlar en tepede değildik diye düşünüyorum ve bunun sebebi ölüm nedenleri üzerinde hala karar kılınmayan canlılar yani dinozor veya Megalodon gibi tek hamlesiyle koskoca binaları yıkabilecek hayvanlar.\nPeki siz hiç böyle bir canlıya rastladınız mı?\nTabi ki cevabınız hayır çünkü hepsi yıllar önce öldü ya da biz öyle sanıyoruz.\nİnsanlar hep en güçlü olmak ister.\nPeki en güçlü olmak için uğraşmamız gereken canlılar sizce hamsi veya uskumru tarzı minik balıklar mı yoksa Megalodon gibi büyük canlılar mı?\nFotoğrafta da gördüğünüz üzere bu hayvanlar basınca karşı çok dayanıklı.\nŞimdi eminim anlattığım konu kulağa daha ilginç gelmeye başlamıştır.\nPeki diyelim ki biz bu köpek balığını bulduk nasıl yakalayacağız?\nHani en güçlü canlıydı bu diyeceksiniz eminim.\nEvet burası gerçekten de en sıkıntılı kısmı sanırım.\nBiz onun yanında çok güçsüzüz' ve işte evrim kısmına geldik.\nBizim güçlenmemiz gerek ve bunun için maymuna bakıp a olmadı deyip geçmemeliyiz.\nBence tüm insan hayvan kombinasyonlarını denemeliyiz:\nÖr. 1 İnsan-maymun-aslan-tilki-şahin...\nÖr. 2 insan-maymun-insan-aslan-insan-maymun... nlayacağınız her olasılığı gözden geçirmeliyiz.\nÇünkü hiçbir şey bu kadar basit olamaz mesela bir kertenkele ile DNA mızı karşılaştırıp; tamam uymuyor rejenerasyonu geçelim dememeliyiz.\nÖnce her olasılığı denemeli ardından bir karar vermeliyiz.\nPROJENİN AMAÇLARI\ n1-Kusursuz insan yaratmanın yollarından birini ele almak.\n2-İnsanlığı daha yüksek mertebeye taşımak.\n3-İnsanlara uygun olacak şekilde dünya şartlarını geleceğin olasılıklarıyla karşılaştırarak bunlara karşı önlem alarak insanların kendini savunmasını sağlayacak şeyler geliştirmek.\n4-İnsanları bu konuda bilgilendirmek.\nBEKLENTİLER\nŞimdi diyeceksiniz ki bu çok zaman alır.\nEvet haklısınız bu bir ömürden daha uzun sürer ama bunun içinde bilgisayarlarla yaşayan tüm canlı verilerini girip olasılıkları hesaplamalarını isteyebiliriz ki tüm olasılıkları bir günden kısa sürede hesaplarlar ve bizde içinde kertenkele geçen tüm doğru olasılıkları deneyebiliriz.\nTabi bu sadece kertenkele olmak zorunda değil bir çita gibi koşabilir, kuş gibi uçabilir, veya bir kanguru gibi zıplayabiliriz.\nŞimdi eminim aklınızda son bir soru vardır.\nMadem bu  kadar kolay tabi buna kolay diyebilirsek kısacası her şeyin kendine göre bir zorluğu var fakat bunlar aşılabilir.\nYapmamız gereken tek şey olasılıkları düşünmek ne yapacağımıza karar vermek ve eyleme geçirmek.\nİşte o zaman tüm doğal şartlara alışık olacağımızdan her halükarda hayatta kalabilir durumda olacağız ve hatta belki bir buzul çağını sokakta kar topu oynayarak atlatacağız ve bunun için önce araştırmalı sonra yaşama ihtimali olan bizden güçlü canlıları bulmalı ve onlar dahil tüm canlıların DNA'sı ile olasılıkları denemeliyiz.\n ";
-		
-	
-}
-	
+        proje7() {
+			
+        baslik7="YÜRÜYEN KRİSTALLER";
+        metin7 = "KULLANILAN MATERYALLER\nBirkaç adet piezo \nLi-Po batarya \nakım dönüştürücü için 4 adet diyot \nkullanılmayan geniş tabanlı bir spor ayakkabı kullandık.\n KULLANILAN YÖNTEMLER \nDevremizi  tamamladıktan sonra ayakkabının tabanına uygun bir şekilde yerleştirdik.\nDaha sonra yürüyüş yaparak test ettik.\nBataryanın sarj olup olmadığından emin olmak için yürüyüşten sonra bir led ile kontrol ettik.\n ANALİZ SONUÇLARI\nTest sonucuna göre piezolar ile elektrik üretmenin mümkün olduğunda kanıtlamış olduk.\nDaha iyi bir tasarım ve devre ile bu fikrin ileride, günlük hayatta önemli bir yeri olacağıma inanıyoruz.\n PROJE ÖZETİ\nElektrik üretmenin alternarif yollarını ararken, piezo kristallerin üretebileceğini fark ettik.\nBunun üzerine tasarladığımız ayakkabıda, bu yöntem ile günlük hareketlerimizden elektrik üreterek bunu kullanmayı amaçladık.\n HİPOTEZ\nPiezo kristalleri kullanarak, ekstra efor sarf etmeden enerji üretebilir miyiz ?\n KONU ARAŞTIRMASI\nGenel olarak titreşim sensörü olarak kullanılan piezolar, üstüne basınç uygulandığına küçük bir miktarda elektrik üretiyor.\nBu elektriği depolayıp, kullanma açısından pek çok çalışma olmadığından, kaynağımız sınırlı.\n SONUÇLAR\nPiezo kristaller ilke elektrik üretip bu elektriği kullanabileceğimizi kanıtladık.\n ÖNERİLER VE BEKLENTİLER \nBu teknolojinin ileride kullanım alanının geniş olacağına inanıyoruz.\nBu tasarım geliştirilirse kişinin günlük hayatında önemli yer kaplayacağını düşünüyoruz.\nSadece ayakkabı ile kalmayıp, örneğin kalabalık yerledeki yollarda kullanılabilir.\n ";
+		}
 };

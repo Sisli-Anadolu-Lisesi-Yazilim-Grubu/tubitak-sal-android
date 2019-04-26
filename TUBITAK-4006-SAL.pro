@@ -30,6 +30,8 @@ HEADERS += \
     Kaynak_Dosyalar/veriler/veriler1.h \
     Kaynak_Dosyalar/veriler/veriler2.h \
     Kaynak_Dosyalar/veriler/veriler3.h \
+    Kaynak_Dosyalar/veriler/veriler18.h \
+    Kaynak_Dosyalar/veriler/veriler21.h \
     Kaynak_Dosyalar/veriler/veriler4.h \
     Kaynak_Dosyalar/veriler/veriler5.h \
     Kaynak_Dosyalar/veriler/veriler6.h \
@@ -44,10 +46,8 @@ HEADERS += \
     Kaynak_Dosyalar/veriler/veriler15.h \
     Kaynak_Dosyalar/veriler/veriler16.h \
     Kaynak_Dosyalar/veriler/veriler17.h \
-    Kaynak_Dosyalar/veriler/veriler18.h \
     Kaynak_Dosyalar/veriler/veriler19.h \
     Kaynak_Dosyalar/veriler/veriler20.h \
-    Kaynak_Dosyalar/veriler/veriler21.h \
     Kaynak_Dosyalar/veriler/veriler22.h \
     Kaynak_Dosyalar/veriler/veriler23.h \
     Kaynak_Dosyalar/veriler/veriler24.h

@@ -1,20 +1,13 @@
 #include "Kaynak_Dosyalar/namespace.h"
+
 using namespace TUBITAK;
 
-class proje17 {
+class proje17{
 	public:
-		QString baslik17;
-		QString metin17;
-	
-
-		
-		proje17() {
-		baslik17="VİTAMİNLİ REJENERASYON\n";	
-		metin17="KULLANILAN\n2 adet toprak solucanı \n2 özdeş beher \nSu \nVitamin (Karma) \nCetvel \nhassas tartı\n METOT\nTopraktan iki adet toprak solucanı buduk.\nBirini 0.9 gram ve 9 cm, diğerini ise 0.7 gram 12 cm olarak ölçtük.\nTopraktan bulmuş olduğumuz bu iki adet toprak solucanını ikiye böldük. 0.4 ve 0.5 gram olacak şekilde iki solucan parçası elde ettik. İki solucanın kafa kısmını kullandık. İki kaba da eşit miktarda toprak koyduk. Seçtiğimiz bir solucanın toprağına bir miktar vitamin ve su ekledik. Diğer solucanın toprağına ise sadece su ekledik. Daha sonra düzenli olarak iki günde bir solucanlarımızı kontrol edip, vitamin ve su takviyesi yaptık. İlk gün vitaminsiz solucan zayıflarken, vitaminli solucanda herhangi bir değişim gözlenmedi. \n ÖZET\nGünlük yaşantımızda geçirdiğimiz ufacık kazalar maalesef bazen bizler için bir takım sorunlara yol açmakta.\nNormal derecede bir açık yaranın kapanması iki, üç gün almaktadır.\nBu süreç zarfında açık yaralar iltihaplanma sonucunda ise yüksek ateşlenme sonucu dirençsiz vücut bebeklerde kalıcı hasara yol açmaktadır.\nBen de bunu engellemek amacı ile rejenerasyon nasıl etkilediğini ölçen bir deney yaptım.\n SORU\nVitaminler rejenerasyon üzerinde etkili midir?\n HİPOTEZ\nVitaminler rejenerasyon hızını arttırır.\n KONU ARAŞTIRMASI\nTürk edebiyatında iz bırakmış önemli şairlerin hayatlarını derinden etkileyen olayları araştırmak ve bu olayların onların sanat anlayışlarına özellikle de şiirlerine ne gibi etkileri olduğunu tespit etmek.\n SONUÇLAR\nTürk edebiyatında iz bırakmış önemli şairlerin erken yaşta annelerini yitirmeleri ve bu ayrılıktan sonra yaşadıkları boşluk hissi, onları büyük ölçüde etkilemiştir.\nBu sanatçıların şiirlerinde 'anne'nin çoğu kez yad edildiğini yahut ölüm ve hüzün temalarıyla kendini gösterdiğini tespit etmekteyiz.\nBu kutsal varlık onlar için;bir zamanlar merhamet dolu kalbiyle huzur ve güven bahşeden fakat erken yitirilmiş bir sığınaktır.\nEksikliğini hiçbir zaman kapatılmamış, bu özlem; şiirlerde imgesel bir boyutta ortaya çıkmıştır.\nBu değerli varlığı toprağa emanet eden yahut onun şefkatinden yoksun büyüyen şair için, artık toprak da kutsaldır.\nDolayısıyla ölüm, anlamda anneye dönüştür.\n SONUÇ VE TARTIŞMA\nBir hafta süren bu'Vitaminli Rejenerasyon' deneyi sonucunda vitaminli solucanımız rejenerasyonu daha hızlı ve sağlıklı bir biçiminde tamamlarken, vitaminsiz solucanımız bu süreci daha yavaş ve hareketsiz tamamladı.\nBu deneyin sonucunda vitamin rejenerasyonu yani asıl amaç olan açık yaraların kapanmasını hızlandırdı.\nBu sebeple amaçladığımız sonuca ulaşıp vitaminli yara bandı yapımının kalıcı etkisi olduğunu, iltihap oluşumunun neden olduğu kalıcı hasarları önlemeye yönelik de bir etkisi olduğunu gözlemledik.\n";
-		
-
+        QString baslik17;
+        QString metin17;
+        proje17(){
+            baslik17 = "APPTIONARY";
+            metin17 = "Bu projede, MEB`in 9.sınıf İngilizce öğretim programında yer alan 'TEENWISE' ders kitabı, uygulama oluşturulurken 'Adove Photoshop' ve 'App Inventor 2.0' programları kullanılmıştır.\nKitabın üniteleri incelenmiş ve telaffuz açısından zor olduğu görülen kelimeler belirlenmiştir.\nKelimelerin belirlenmesinde, derslerde sıkça yapılan telaffuz hataları göz önünde bulundurulmuştur ve yanlış telaffuz edildiği tespit edilen kelimeler bir havuza aktarılmıştır.\nKONU ÖZETİ\nÜlkemizde yabancı dil eğitimi konusunda yenilikçi yöntemlerin kullanılması kaçınılmaz olmuştur.\nBu amaçla dil öğretimini daha eğlenceli ve kolay hale getirmek, öğrencilerin kelime haznesini geliştirilmesi için hem işitsel hem de görsel hafızaya hitap edecek şekilde tasarlanan teknolojik bir uygulama hazırladık.\nKONU ARAŞTIRMASI\nDünya çapında ülkemizin de içinde bulunduğu 44 ülkede İngilizce yeterlilik testi uygulamış ve Türkiye;eğitim seviyesinin düşük olduğu Şili,Endonezya Suudi Arabistan gibi ülkelerin de gerisinde kalarak 43.Sıraya yerleşmiştir.\nFarklı Android sürümlerinde ve farklı çözünürlükteki cihazlarda denemeler yaparak uygulamanın sorunsuzluğunu ve işlerliği sınandı.\nAkabinde karşılaşılan problemler bertaraf edilmeye çalışıldı Kendi sınıfımızdan başlayarak, arkadaşlarımızın cihazlarına uygulamayı yükledik ve nasıl kullanacakları ile ilgili kısa bilgiler verdik ve sorunsuz bir şekilde uygulamayı kullanmalarını sağladık.\nŞu ana kadar uygulamayı kullananlar tarafından, kelimelerin alfabetik sıraya konulması, arayüzün göze hitap edici olması, kelimelerin yanındaki resimlerin sayısının artması gibi öneriler sunulmuştur ve uygulamanın içerdiği kelimelerin sayısının artması yönünde beklentiler dile getirilmiştir.\n";
 		}
-	
 };
-
-

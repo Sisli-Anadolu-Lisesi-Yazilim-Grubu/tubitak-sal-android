@@ -2,12 +2,15 @@
 
 using namespace TUBITAK;
 
-class proje9{
-	public:
-		QString baslik9;
-		QString metin9;
-		proje9(){
-			baslik9 = "APPTIONARY\n";
-			metin9 = "Bu projede, MEB`in 9.sınıf İngilizce öğretim programında yer alan 'TEENWISE' ders kitabı, uygulama oluşturulurken 'Adove Photoshop' ve 'App Inventor 2.0' programları kullanılmıştır.\nKitabın üniteleri incelenmiş ve telaffuz açısından zor olduğu görülen kelimeler belirlenmiştir.\nKelimelerin belirlenmesinde, derslerde sıkça yapılan telaffuz hataları göz önünde bulundurulmuştur ve yanlış telaffuz edildiği tespit edilen kelimeler bir havuza aktarılmıştır.\nKONU ÖZETİ\nÜlkemizde yabancı dil eğitimi konusunda yenilikçi yöntemlerin kullanılması kaçınılmaz olmuştur.\nBu amaçla dil öğretimini daha eğlenceli ve kolay hale getirmek, öğrencilerin kelime haznesini geliştirilmesi için hem işitsel hem de görsel hafızaya hitap edecek şekilde tasarlanan teknolojik bir uygulama hazırladık.\nKONU ARAŞTIRMASI\nDünya çapında ülkemizin de içinde bulunduğu 44 ülkede İngilizce yeterlilik testi uygulamış ve Türkiye;eğitim seviyesinin düşük olduğu Şili,Endonezya Suudi Arabistan gibi ülkelerin de gerisinde kalarak 43.Sıraya yerleşmiştir.\nFarklı Android sürümlerinde ve farklı çözünürlükteki cihazlarda denemeler yaparak uygulamanın sorunsuzluğunu ve işlerliği sınandı.\nAkabinde karşılaşılan problemler bertaraf edilmeye çalışıldı Kendi sınıfımızdan başlayarak, arkadaşlarımızın cihazlarına uygulamayı yükledik ve nasıl kullanacakları ile ilgili kısa bilgiler verdik ve sorunsuz bir şekilde uygulamayı kullanmalarını sağladık.\nŞu ana kadar uygulamayı kullananlar tarafından, kelimelerin alfabetik sıraya konulması, arayüzün göze hitap edici olması, kelimelerin yanındaki resimlerin sayısının artması gibi öneriler sunulmuştur ve uygulamanın içerdiği kelimelerin sayısının artması yönünde beklentiler dile getirilmiştir.\n";
-		}
+class proje9 {
+    public:
+    QString baslik9;
+    QString metin9;
+    
+
+    proje9() {
+        baslik9 = "HEM BAKIMLI HEM SAĞLIKLI OL";
+        metin9 = "KULLANILAN MATERYALLER\nAgar Besiyer(Katı-Standart) \nKarbonat \nLimon Kabuğu \nAvokado \nLavanta Yağı \nBeher(100 ml) \nKaşık \nAlkol \nSpatül\nMETOT\nGüzel kokmak ve bakımlı olmak amacıyla yaptığımız deneyin ilk adımı bunun için en mantıklı maddeyi araştırmaktı.\nAraştırma sonucunda karbonatın bu proje için en uygun madde olduğunu kararlaştırdık.\nBirinci kaba karbonat koyduk.\nİkinci kaba limon ve karbonat, üçüncü kaba avokado yağı ve karbonat, dördüncü kaba ise lavanta yağı ve karbonatı karıştırarak koyduk.\nSteril ortamda bir arkadaşımızdan spatül  ile sıyırarak aldığımız teri, agarlı katı besiyerine yayma yöntemi ile ektik.\nElde ettiğimiz bu karışımları yine spatül ile arkadaşımızdan aldığımız ter örneğiyle ayrı ayrı karıştırarak, ayrı petrilerdeki agar besiyerine aynı yöntemle ektik.\nÖZET\nBiz insanlar her zaman güzel kokmak ve bakımlı olmak isteriz.\nKişisel bakım sadece estetik açıdan değil sağlık açısından da önemlidir.\nBunun için çeşitli kişisel bakım ürünleri kullanırız.\nBu ürünlerden en sık kullandıklarımzdan biri de koltuk altı ROLL ON'lardır.\nBu ürünlerin bir çoğu insanlara zarar verir.\nBiz de bu konuya bir çözüm aradık.\nAraştırmalarımız sonunda karbonatın antibakteriyel ve koku giderici bir madde olduğunu öğrendik ve bu konuda en etkili çözümün karbonat olabileceğini düşündük.\nBu projedeki amacımız insan vücuduna, ozon tabakasına ve doğaya zarar vermeden; hem ter kokusunu önlemek hem de güzel kokmaktır.\nSORU\nDeodorant ve Roll On yerine ne kullanabilrim?\nHİPOTEZ\nKarbonat koku giderici olarak kullanılabilir.\nSONUÇ VE TARTIŞMA\nDeney sonucunda, karbonatsız petride üreme yoğun bir şekilde görülürken, karbonat karışımlarını koyduğumuz petrilerde üremenin nispeten az olduğu görüldü.\nBu sonuçlar mevcut laboratuvar koşullarımız daha steril olabilseydi çok daha az üreme olacağını düşündürmektedir.\nBu deneyden yola çıkarak ter kokusunu önlemede standart Roll-On'lar yerine karbonat vb. antimikrobiyal maddelerin iyi birer alternatif olabileceği söylenebilir.\nGüzel kokmak içinse limon kabuğu, avokado yağı, lavanta esansı gibi birçok koku verici madde kullanılabilir.\n";
+       
+    }
 };

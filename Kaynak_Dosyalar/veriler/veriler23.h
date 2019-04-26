@@ -1,18 +1,14 @@
 #include "Kaynak_Dosyalar/namespace.h"
 
+using namespace TUBITAK;
+
 class proje23 {
-
 public:
-  
-QString baslik23 ;
-  QString metin23;
-
-proje23(){
-
-baslik23 = "NİL DELTASINDA SOLMUŞ BİR ÇİCEK: HYPATIA\n";
-kullanılan_materyaller23 = "KULLANILAN MATERYALLER\n-MAKALE -HYPATİA VE HAYATI HAKKINDA GÖRSELLER \n UYGULANA YÖNTEMLER\n-KAYNAK İNCELEME \n-MAKALE TARAMASI \n-GÖRSEL İNCELEME\n ANALİZ SONUÇLARI\n-HYPATIA HER ŞEYE RAĞMEN BABASINDAN ÖĞRENDİĞİ GIBI BİLİMİN IŞIĞI İLE DİGER GENÇLERİ VE İNSANLIĞI AYDINLATMAK İÇİN SON ANINA KADAR ELİNDEN GELENİ YAPMIŞTIR. \n-İNSANLAR NE YAPARLARSA YAPSINLAR , BİLİMİN SÖNDÜRELEMEZ BİR IŞIĞI VARDIR VE HER ŞEYE RAĞMEN YANMAYA DEVAM EDECEKTİR.\n ÖZET\nBu çalışmada , 370-415 yılları arasında yaşamış olan filozof , matematikçi ve astronom olan Hypatia'nın hayatı ele alınmıştır. \nBu projedeki temel amaç , felsefe tarihinde kadın filozofların da yer aldığını göstererek bu konuda farkındalık yaratmak.\n ÖZET\nBu çalışmada , 370-415 yılları arasında yaşamış olan filozof , matematikçi ve astronom olan Hypatia'nın hayatı ele alınmıştır. \nBu projedeki temel amaç , felsefe tarihinde kadın filozofların da yer aldığını göstererek bu konuda farkındalık yaratmak.\n ÖZET\nBu çalışmada , 370-415 yılları arasında yaşamış olan filozof , matematikçi ve astronom olan Hypatia'nın hayatı ele alınmıştır. \nBu projedeki temel amaç , felsefe tarihinde kadın filozofların da yer aldığını göstererek bu konuda farkındalık yaratmak.\n HİPOTEZ\nKadınlar , cinsiyetlerinden kaynaklı olarak , özellikle bilimsel ve felsefi alanlarda yok sayılmaklardır. \nKadınların , üst düzey düşünme becerileri gerektiren konularda erkekler kadar iyi olmadıkları algısının tarihsel bit olgu olduğu hipotezinden yola çıkarak bu hipoteze örnek teşkil eden , düşünce tarihini derinden etkilemiş Hypatia'yı ele aldık.\n KONU ARAŞTIRMASI\nHypatia'ya dair bilgilerin bulunduğu , erişelebilen hee kitap , dergi , makale , tez , yazı görselin değerlendirmeye alınması kararlaştırılmıştır.\n SONUÇLAR\nHypatia,  döneminin gerici zihniyetine rağmen bilim yapmak isteyen güçlü ve cesur bir kadındı fakat yine aynı zihniyet onun bu cesaretine ve iradesine dayanamayarak onu canice katletti. \n-İnsanlar geçmişte günümüze göre daha bağnazca ve ilkel düsünmekte , kadınların toplumdaki yükselişi daima bir tehdit olarak algılamaktaydı. \n-Bir kadın insanlığa bütün katkılarına ve belki de bilimi hep yaptığı gibi ileri taşıyacak olmasına rağmen dogmatik zihin yapısı sebebiyle engellendi. \n-Din , bir çok insanın gözünü kör edecek derece toplumu etkilemek için kullanabilir. \n-Kadını her zaman her alanına katmalı ve desteklemeliyiz. \n-Bir erkek ne yababiliyorsa , kadın da aynısını yapabilmektedir.\n ÖNERİLER VE BEKLENTİLER \nO dönemlerden bugüne dek kadın toplumda hep geri plana atılmalı ve yok sayılmak istenmiştir fakat bundan sonra hayatın her alanında kadının varlığını kabul etmeli ve onlara kendilerini özgürce gerçekleştirebilecekleri bir ortam sağlamalıyız. \nBu dünyanın yarısı kadınlardan oluşmaktadır , etrafımızda bir kadına nasıl davranacağımızı düşünürken buna hep dikkat etmeliyiz.\nÇevremizde bulunan bütün kadın bireyleri , eşleri , kızları , anneleri , dostları , okumayan bütün kadınları okutmalı ve bilinçlendirmeliyiz. \nAynı zamanda artık 21. yüzyıla gelmişken özellikle kendi toplumumuz olmak üzere geriye kalan bütün insanlardan kadınlara  saygı duyulmasını ve onların da birer birey olduklarını , özgür ve söz sahibi canlılar olduklarını , hayatın her alanında olduklarını ve olmaya da dsvam edeceklerini kabul etmelerini bekliyoruz.\n";
-
-}
-
-  
+    QString baslik23;
+    QString metin23;
+   
+    proje23() {
+        baslik23 = "KIRMIZI-MAVİ";
+        metin23 = "KULLANILAN MATERYALLER\nDemir çubuk , Termometre , Çakmak , Tüp\nUYGULANAN YÖNTEMLER\nKırmızı ve mavi renklerini sadece hoş görüntü sağlayabilmesi için mi kullanıyoruz ?\nYapacak olduğumuz bu deneyde her şeyin aynı olup yalnızca renklerin farklı olmasını sağlayacağız.\nBir ortam hazırlayacağız ardından mavi ve kırmızı renkteki demirlere aynı şiddette ısılar vereceğiz.\nKırmızı ve mavinin ısı iletimini ve iletkenlikleri arasındaki farkı ölçeceğiz.\nBireylerin ufak ufak ısıdan tasarruf etmesi dünya genelindeki insan sayısını düşündüğümüzde önemli bir etki yaratır.\nEğer bu ısı yalıtımını azaltmış oluruz hem de doğayı korumuş oluruz.\nANALİZ SONUÇLARI\nAynı koşullarda farklı renklerin ısı iletkenliklerinin farklı olduğu tespit  edildi.\nÖZET\nAynı cins maddeden yapılmış enleri , yükseklikleri ve kalınlıkları eşit iki çubuk kırmızı ve mavi renklere boyanır.\nİki demirin aynı ortam koşullarında ısı iletim değişikleri incelenir.\nBu deneyden beklenti iki demirin de ısı iletiminin eşit miktarsa olmasıdır.\nDeneyden elde edilen bilgilere göre yaşantımızdaki ısı tasarrufunu artırmak, veriler ile günlük hayat şartlarının kolaylaştırmak amaçlanır.\nHİPOTEZ\nMavi ve kırmızı çubukları alıp ısıtacağız.\nHangisini daha iyi ısıyı ilettiğini gözlemleyip bunun üzerinden çeşitli çözümler üreteceğiz.\nARAŞTIRMA\nMavi ve kırmızı çubukların eşit koşullarda ısıyı aynı oranda iletip iletmediğini araştırdık.\nIsının renkler üzerinde etkisinin nasıl olduğuna dair çalışmalar yaptık.\nSONUÇ\nBaşta 22° sıcaklığa sahip iki çubuk demir bulunmaktadır.\nÇubuk tutucularına yerleştirilen çubukları aynı koşullarda ısıtılır.\nMavi boyalı demirin sıcaklığı 55° olarak ölçülmüştür.\nÖNERİ VE BEKLENTİLER \nMavi renge boyanan enerji nakil hatlarını ısı iletimleri tasarruf açısından daha etkilidir.\nBu yüzden materyallerin mavi renge boyanması beklenir.\n ";
+    }
 };
