@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje15 {
     public:
-    string baslik15;
-    string metin15;
+    QString baslik15;
+    QString metin15;
     
 
     proje15() {
