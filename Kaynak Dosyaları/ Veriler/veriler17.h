@@ -4,14 +4,7 @@ using namespace TUBITAK;
 class proje17 {
 	public:
 		string baslik17;
-		string kullanilan_materyaller17;
-		string metot17;
-		string ozet17;
-		string soru17;
-		string hipotez17;
-                string konu_arastirmasi17;
-                string sonuclar17;
-		string sonuc_ve_tartisma17;
+		string metin17;
 	
 
 		
