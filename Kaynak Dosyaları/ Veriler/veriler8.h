@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje8 {
 	public:
-		string baslik8;
-		string metin8;
+		QString baslik8;
+		QString metin8;
 		
 		proje8() {
 			baslik8 = "GÖRMEDEN KALKAN ENGELLER\n";
