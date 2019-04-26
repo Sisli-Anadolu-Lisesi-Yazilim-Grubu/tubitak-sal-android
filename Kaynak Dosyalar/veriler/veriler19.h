@@ -3,8 +3,8 @@ using namespace TUBITAK;
 
 class proje19 {
 	public:
-		string baslik19;
-		string metin19;
+		QString baslik19;
+		QString metin19;
 	
 
 		
