@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje13 {
 public:
-    string baslik13;
-    string metin13;
+    QString baslik13;
+    QString metin13;
    
     proje13() {
         baslik13 = "KIRMIZI MAVİ\n";
