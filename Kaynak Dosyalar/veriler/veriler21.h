@@ -6,8 +6,8 @@ class proje21 {
     
 public:
     
-    string baslik21;
-    string metin21;
+    QString baslik21;
+    QString metin21;
 
     proje21() {
         baslik21 = "MATEMATİKTE OLASILIK KONUSU HAKKINDA OYUN GELİŞTİRME \n";
