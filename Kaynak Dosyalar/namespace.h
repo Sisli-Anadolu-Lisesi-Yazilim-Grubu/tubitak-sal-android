@@ -1,5 +1,4 @@
-#include <string>
-#include <locale.h>
+#include <QString>
 
 /* 
 	Samet Sevindik
@@ -11,8 +10,6 @@
 	v1.0
 	22.04.2019
 */
-
-setlocale(LC_ALL, "Turkish");
 
 namespace TUBITAK {
 	
