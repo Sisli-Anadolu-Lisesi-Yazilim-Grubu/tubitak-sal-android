@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje16 {
 public:
-    string baslik16;
-    string metin16;
+    QString baslik16;
+    QString metin16;
 
     proje16() {
         baslik16 = "AKTİF KARBONUN CANLI ORGANİZMA ÜZERİNDEKİ ETKİSİ\n";
