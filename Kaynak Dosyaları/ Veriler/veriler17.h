@@ -3,8 +3,8 @@ using namespace TUBITAK;
 
 class proje17 {
 	public:
-		string baslik17;
-		string metin17;
+		QString baslik17;
+		QString metin17;
 	
 
 		
@@ -14,6 +14,7 @@ class proje17 {
 		
 
 		}
+	
 };
 
 
