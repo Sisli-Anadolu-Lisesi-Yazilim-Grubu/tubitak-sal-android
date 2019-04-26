@@ -3,8 +3,8 @@
 class proje3 {
 	
 	public:
-		string baslik3;
-		string metin3;
+		QString baslik3;
+		QString metin3;
 		
 		proje3(){
 			
