@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>projeEkran1</class>
+ <widget class="QMainWindow" name="projeEkran1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TÜBİTAK 4006 ŞAL</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#projeEkran1 {
+border-image: url(:/arkaplan/resimler/Arkaplan.PNG);
+ }</string>
+  </property>
+  <widget class="QWidget" name="projeEkran1_2">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,90,0,0">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="10,80,10">
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Proje Adı&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>18</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="5,90,5">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QGraphicsView" name="graphicsView"/>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>18</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="projelerButton1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0.607955, y1:0.29, x2:0.466, y2:0.0745909, stop:0.5625 rgba(48, 192, 125, 255), stop:1 rgba(255, 255, 255, 255));
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Projeler</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="okulButton1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0, stop:1 rgba(178, 178, 178, 255));
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Okul</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuTarih">
+    <property name="title">
+     <string>Tarih</string>
+    </property>
+    <addaction name="action_i_li_nin_D_n_ve_Bug_n"/>
+    <addaction name="separator"/>
+    <addaction name="actionNil_Deltas_nda_Solmu_Bir_i_ek"/>
+    <addaction name="separator"/>
+    <addaction name="action_i_li_Yerel_Tarih_Fark_ndal"/>
+   </widget>
+   <widget class="QMenu" name="menuBiyoloji">
+    <property name="title">
+     <string>Biyoloji</string>
+    </property>
+    <addaction name="actionAr_t_lan_Bakteri"/>
+    <addaction name="separator"/>
+    <addaction name="action_deal_Su"/>
+    <addaction name="separator"/>
+    <addaction name="actionSes_Frekans_n_n_Fiizlenmeye_Etkisi"/>
+    <addaction name="separator"/>
+    <addaction name="actionHem_Bak_ml_Hem_Sa_l_kl_Ol"/>
+    <addaction name="separator"/>
+    <addaction name="actionVitaminli_Jenerasyon"/>
+    <addaction name="separator"/>
+    <addaction name="actionKompost"/>
+    <addaction name="separator"/>
+    <addaction name="actionAktif_Karbon"/>
+    <addaction name="separator"/>
+    <addaction name="actionGen_Aktar_m"/>
+   </widget>
+   <widget class="QMenu" name="menuFizik">
+    <property name="title">
+     <string>Fizik</string>
+    </property>
+    <addaction name="actionG_rmeden_Kalkan_Engeller"/>
+    <addaction name="separator"/>
+    <addaction name="actionY_r_yen_Kristaller"/>
+    <addaction name="separator"/>
+    <addaction name="actionKasislere_Son"/>
+    <addaction name="separator"/>
+    <addaction name="actionK_rm_z_Mavi"/>
+   </widget>
+   <widget class="QMenu" name="menuEdebiyat">
+    <property name="title">
+     <string>Edebiyat</string>
+    </property>
+    <addaction name="action_leri_D_n_Geri_D_n_t_r"/>
+    <addaction name="separator"/>
+    <addaction name="actionSu_lularla_Empati"/>
+    <addaction name="separator"/>
+    <addaction name="action_stanbul_da_Ya_am_Edebiyat_lar"/>
+    <addaction name="separator"/>
+    <addaction name="actionBireylere_Dayat_lan_Toplumsal_Cinsiyet_Kal_b"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnnesiz_B_y_yen_airler"/>
+   </widget>
+   <widget class="QMenu" name="menuCo_rafya">
+    <property name="title">
+     <string>Coğrafya</string>
+    </property>
+    <addaction name="actionK_resel_Is_nma_ve_klim_De_i_iklilikleri"/>
+   </widget>
+   <widget class="QMenu" name="menu_ngilizce">
+    <property name="title">
+     <string>İngilizce</string>
+    </property>
+    <addaction name="actionApptionary"/>
+   </widget>
+   <widget class="QMenu" name="menuMatematik">
+    <property name="title">
+     <string>Matematik</string>
+    </property>
+    <addaction name="actionOlas_l_k_Konusu_Hakk_nda_oyun"/>
+   </widget>
+   <widget class="QMenu" name="menuAlmanca">
+    <property name="title">
+     <string>Almanca</string>
+    </property>
+    <addaction name="actionAlmanca_S_fatlar_n_n_retilmesi"/>
+   </widget>
+   <addaction name="menuTarih"/>
+   <addaction name="menuBiyoloji"/>
+   <addaction name="menuFizik"/>
+   <addaction name="menuEdebiyat"/>
+   <addaction name="menuCo_rafya"/>
+   <addaction name="menu_ngilizce"/>
+   <addaction name="menuMatematik"/>
+   <addaction name="menuAlmanca"/>
+  </widget>
+  <action name="action_i_li_nin_D_n_ve_Bug_n">
+   <property name="text">
+    <string>Şişli'nin Dünü ve Bugünü</string>
+   </property>
+  </action>
+  <action name="actionNil_Deltas_nda_Solmu_Bir_i_ek">
+   <property name="text">
+    <string>Nil Deltasında Solmuş Bir Çiçek</string>
+   </property>
+  </action>
+  <action name="actionAr_t_lan_Bakteri">
+   <property name="text">
+    <string>Arıtılan Bakteri</string>
+   </property>
+  </action>
+  <action name="action_deal_Su">
+   <property name="text">
+    <string>İdeal Su</string>
+   </property>
+  </action>
+  <action name="actionSes_Frekans_n_n_Fiizlenmeye_Etkisi">
+   <property name="text">
+    <string>Ses Frekansının Filizlenmeye Etkisi</string>
+   </property>
+  </action>
+  <action name="actionHem_Bak_ml_Hem_Sa_l_kl_Ol">
+   <property name="text">
+    <string>Hem Bakımlı Hem Sağlıklı Ol</string>
+   </property>
+  </action>
+  <action name="actionG_rmeden_Kalkan_Engeller">
+   <property name="text">
+    <string>Görmeden Kalkan Engeller</string>
+   </property>
+  </action>
+  <action name="actionY_r_yen_Kristaller">
+   <property name="text">
+    <string>Yürüyen Kristaller</string>
+   </property>
+  </action>
+  <action name="actionVitaminli_Jenerasyon">
+   <property name="text">
+    <string>Vitaminli Jenerasyon</string>
+   </property>
+  </action>
+  <action name="actionKompost">
+   <property name="text">
+    <string>Kompost</string>
+   </property>
+  </action>
+  <action name="action_leri_D_n_Geri_D_n_t_r">
+   <property name="text">
+    <string>İleri Düşün Geri Dönüştür</string>
+   </property>
+  </action>
+  <action name="actionSu_lularla_Empati">
+   <property name="text">
+    <string>Suçlularla Empati</string>
+   </property>
+  </action>
+  <action name="action_stanbul_da_Ya_am_Edebiyat_lar">
+   <property name="text">
+    <string>İstanbul'da Yaşamış Edebiyatçılar</string>
+   </property>
+  </action>
+  <action name="actionBireylere_Dayat_lan_Toplumsal_Cinsiyet_Kal_b">
+   <property name="text">
+    <string>Bireylere Dayatılan Toplumsal Cinsiyet Kalıbı</string>
+   </property>
+  </action>
+  <action name="actionK_resel_Is_nma_ve_klim_De_i_iklilikleri">
+   <property name="text">
+    <string>Küresel Isınma ve İklim Değişiklilikleri</string>
+   </property>
+  </action>
+  <action name="actionKasislere_Son">
+   <property name="text">
+    <string>Kasislere Son</string>
+   </property>
+  </action>
+  <action name="actionApptionary">
+   <property name="text">
+    <string>Apptionary</string>
+   </property>
+  </action>
+  <action name="actionAnnesiz_B_y_yen_airler">
+   <property name="text">
+    <string>Annesiz Büyüyen Şairler</string>
+   </property>
+  </action>
+  <action name="actionAktif_Karbon">
+   <property name="text">
+    <string>Aktif Karbon</string>
+   </property>
+  </action>
+  <action name="actionGen_Aktar_m">
+   <property name="text">
+    <string>Gen Aktarımı</string>
+   </property>
+  </action>
+  <action name="action_i_li_Yerel_Tarih_Fark_ndal">
+   <property name="text">
+    <string>Şişli Yerel Tarih Farkındalığı</string>
+   </property>
+  </action>
+  <action name="actionOlas_l_k_Konusu_Hakk_nda_oyun">
+   <property name="text">
+    <string>Olasılık Konusu Hakkında Oyun</string>
+   </property>
+  </action>
+  <action name="actionK_rm_z_Mavi">
+   <property name="text">
+    <string>Kırmızı-Mavi</string>
+   </property>
+  </action>
+  <action name="actionAlmanca_S_fatlar_n_n_retilmesi">
+   <property name="text">
+    <string>Almanca Sıfatlarının Öğretilmesi</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
