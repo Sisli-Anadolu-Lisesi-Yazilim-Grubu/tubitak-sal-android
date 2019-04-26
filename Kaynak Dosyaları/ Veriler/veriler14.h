@@ -4,8 +4,8 @@ using namespace TUBITAK;
 
 class proje14 {
     public:
-    string baslik14;
-    string metin14;
+    QString baslik14;
+    QString metin14;
     
     proje14() {
         baslik14 = "BİREYLERE DAYATILAN TOPLUMSAL CİNSİYET KALIPLARINA DAİR FARKINDALIK\n";
