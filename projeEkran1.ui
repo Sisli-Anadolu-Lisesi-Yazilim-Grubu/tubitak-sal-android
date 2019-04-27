@@ -39,7 +39,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">#projeEkran1 {
-border-image: url(:/arkaplan/resimler/Arkaplan.PNG);
+border-image: url(:/arkaplan/resimler/arkaplan.jpg);
  }</string>
   </property>
   <widget class="QWidget" name="projeEkran1_2">
@@ -230,6 +230,9 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
     <bool>false</bool>
    </property>
    <widget class="QMenu" name="menuTarih">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="title">
      <string>Tarih</string>
     </property>
@@ -309,6 +312,15 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <addaction name="bar_proje24"/>
    </widget>
+   <widget class="QMenu" name="menuAra_lar">
+    <property name="title">
+     <string>Araçlar </string>
+    </property>
+    <addaction name="buyut"/>
+    <addaction name="separator"/>
+    <addaction name="cikis"/>
+   </widget>
+   <addaction name="menuAra_lar"/>
    <addaction name="menuTarih"/>
    <addaction name="menuBiyoloji"/>
    <addaction name="menuFizik"/>
@@ -436,6 +448,19 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
   <action name="bar_proje24">
    <property name="text">
     <string>Almanca Sıfatlarının Öğretilmesi</string>
+   </property>
+  </action>
+  <action name="buyut">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Resmi Büyüt</string>
+   </property>
+  </action>
+  <action name="cikis">
+   <property name="text">
+    <string>Çıkış</string>
    </property>
   </action>
  </widget>

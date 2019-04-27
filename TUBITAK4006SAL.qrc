@@ -4,5 +4,6 @@
     </qresource>
     <qresource prefix="/arkaplan">
         <file>resimler/Arkaplan.PNG</file>
+        <file>resimler/arkaplan.jpg</file>
     </qresource>
 </RCC>
