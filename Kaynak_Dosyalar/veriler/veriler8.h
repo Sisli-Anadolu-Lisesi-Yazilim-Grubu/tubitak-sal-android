@@ -1,6 +1,6 @@
 #include "Kaynak_Dosyalar/namespace.h"
 
-class proje8 {
+class TUBITAK::proje8 {
 
 public:
   
