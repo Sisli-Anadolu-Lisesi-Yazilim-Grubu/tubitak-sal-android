@@ -2,7 +2,7 @@
 #include "Kaynak_Dosyalar/namespace.h"
 using namespace TUBITAK;
 
-class proje18 {
+class TUBITAK::proje18 {
 	public:
 		QString baslik18;
 		QString metin18;
