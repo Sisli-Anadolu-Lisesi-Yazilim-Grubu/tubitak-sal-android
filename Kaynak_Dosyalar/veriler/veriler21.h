@@ -2,7 +2,7 @@
 
 using namespace TUBITAK;
 
-class proje21 {
+class TUBITAK::proje21 {
     
 public:
     
