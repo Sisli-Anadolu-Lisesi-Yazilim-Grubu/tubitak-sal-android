@@ -1,6 +1,6 @@
 #include "Kaynak_Dosyalar/namespace.h"
  using namespace TUBITAK;
-class proje3 {
+class TUBITAK::proje3 {
 	
 	public:
 		QString baslik3;
