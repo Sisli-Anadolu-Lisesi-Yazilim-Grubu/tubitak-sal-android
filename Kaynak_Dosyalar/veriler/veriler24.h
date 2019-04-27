@@ -2,7 +2,7 @@
 
 using namespace TUBITAK;
 
-class proje24 {
+class TUBITAK::proje24 {
 public:
     QString baslik24;
     QString metin24;
