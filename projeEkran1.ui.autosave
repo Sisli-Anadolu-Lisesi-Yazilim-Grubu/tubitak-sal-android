@@ -230,6 +230,9 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
     <bool>false</bool>
    </property>
    <widget class="QMenu" name="menuTarih">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="title">
      <string>Tarih</string>
     </property>

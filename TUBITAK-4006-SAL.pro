@@ -22,7 +22,8 @@ SOURCES += ./main.cpp \
 FORMS += ./girisEkrani.ui \
     ./okul.ui \
     ./projeEkran1.ui
-RESOURCES += TUBITAK4006SAL.qrc
+RESOURCES += TUBITAK4006SAL.qrc \
+    veriler.qrc
 
 HEADERS += \
     TUBITAK4006SAL.h \
