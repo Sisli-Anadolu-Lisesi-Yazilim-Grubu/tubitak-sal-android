@@ -34,9 +34,9 @@
 
 using namespace TUBITAK;
 
-static int *projeNo;
-static QString *projeAd;
-static QString *projeYol;
+static int projeNo;
+static QString projeAd;
+static QString projeYol;
 
 class giris_ekrani : public QMainWindow, Ui::girisEkran
 {
@@ -52,6 +52,7 @@ class proje_ekrani : public QMainWindow, public Ui::projeEkran1
 	Q_OBJECT
 public:
     proje_ekrani();
+    void getProject();
 
 private slots:
 	void ekran_degistir();
@@ -123,4 +124,6 @@ class resim_ekrani : public QMainWindow, public Ui::pic_screen
     Q_OBJECT
 public:
     resim_ekrani();
+private slots:
+    void on_back_triggered();
 };
