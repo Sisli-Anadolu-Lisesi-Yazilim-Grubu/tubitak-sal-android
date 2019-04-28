@@ -4,6 +4,7 @@
 #include "ui_girisEkrani.h"
 #include "ui_projeEkran1.h"
 #include "ui_okul.h"
+#include "ui_picture-screen.h"
 #include <QTimer>
 #include "Kaynak_Dosyalar/namespace.h"
 #include "Kaynak_Dosyalar/veriler/veriler1.h"
@@ -32,6 +33,10 @@
 #include "Kaynak_Dosyalar/veriler/veriler24.h"
 
 using namespace TUBITAK;
+
+static int *projeNo;
+static QString *projeAd;
+static QString *projeYol;
 
 class giris_ekrani : public QMainWindow, Ui::girisEkran
 {
@@ -106,9 +111,16 @@ private:
 
 class okul : public QMainWindow, public Ui::okul
 {
-	Q_OBJECT
+    Q_OBJECT
 public:
 	okul();
 private slots:
 	void ekran_degistir();
+};
+
+class resim_ekrani : public QMainWindow, public Ui::pic_screen
+{
+    Q_OBJECT
+public:
+    resim_ekrani();
 };
