@@ -37,6 +37,10 @@
   <property name="windowTitle">
    <string>TÜBİTAK 4006 ŞAL</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="TUBITAK4006SAL.qrc">
+    <normaloff>:/ICONS/resimler/sal-logo.ico</normaloff>:/ICONS/resimler/sal-logo.ico</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">#projeEkran1 {
 border-image: url(:/arkaplan/resimler/arkaplan.jpg);
@@ -331,121 +335,217 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
    <addaction name="menuAlmanca"/>
   </widget>
   <action name="bar_proje1">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Şişli'nin Dünü ve Bugünü</string>
    </property>
   </action>
   <action name="bar_proje8">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Nil Deltasında Solmuş Bir Çiçek</string>
    </property>
   </action>
   <action name="bar_proje2">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Arıtılan Bakteri</string>
    </property>
   </action>
   <action name="bar_proje3">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>İdeal Su</string>
    </property>
   </action>
   <action name="bar_proje4">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Ses Frekansının Filizlenmeye Etkisi</string>
    </property>
   </action>
   <action name="bar_proje9">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Hem Bakımlı Hem Sağlıklı Ol</string>
    </property>
   </action>
   <action name="bar_proje5">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Görmeden Kalkan Engeller</string>
    </property>
   </action>
   <action name="bar_proje7">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Yürüyen Kristaller</string>
    </property>
   </action>
   <action name="bar_proje10">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Vitaminli Jenerasyon</string>
    </property>
   </action>
   <action name="bar_proje13">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Kompost</string>
    </property>
   </action>
   <action name="bar_proje6">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>İleri Düşün Geri Dönüştür</string>
    </property>
   </action>
   <action name="bar_proje11">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Suçlularla Empati</string>
    </property>
   </action>
   <action name="bar_proje12">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>İstanbul'da Yaşamış Edebiyatçılar</string>
    </property>
   </action>
   <action name="bar_proje15">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Bireylere Dayatılan Toplumsal Cinsiyet Kalıbı</string>
    </property>
   </action>
   <action name="bar_proje14">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Küresel Isınma ve İklim Değişiklilikleri</string>
    </property>
   </action>
   <action name="bar_proje16">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Kasislere Son</string>
    </property>
   </action>
   <action name="bar_proje17">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Apptionary</string>
    </property>
   </action>
   <action name="bar_proje18">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Annesiz Büyüyen Şairler</string>
    </property>
   </action>
   <action name="bar_proje19">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Aktif Karbon</string>
    </property>
   </action>
   <action name="bar_proje22">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Gen Aktarımı</string>
    </property>
   </action>
   <action name="bar_proje20">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Şişli Yerel Tarih Farkındalığı</string>
    </property>
   </action>
   <action name="bar_proje21">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Olasılık Konusu Hakkında Oyun</string>
    </property>
   </action>
   <action name="bar_proje23">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Kırmızı-Mavi</string>
    </property>
   </action>
   <action name="bar_proje24">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/tubitak.ico</normaloff>:/ICONS/resimler/tubitak.ico</iconset>
+   </property>
    <property name="text">
     <string>Almanca Sıfatlarının Öğretilmesi</string>
    </property>
@@ -454,16 +554,26 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
    <property name="enabled">
     <bool>false</bool>
    </property>
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/magnifying-glass.ico</normaloff>:/ICONS/resimler/magnifying-glass.ico</iconset>
+   </property>
    <property name="text">
     <string>Resmi Büyüt</string>
    </property>
   </action>
   <action name="cikis">
+   <property name="icon">
+    <iconset resource="TUBITAK4006SAL.qrc">
+     <normaloff>:/ICONS/resimler/power.ico</normaloff>:/ICONS/resimler/power.ico</iconset>
+   </property>
    <property name="text">
     <string>Çıkış</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="TUBITAK4006SAL.qrc"/>
+ </resources>
  <connections/>
 </ui>

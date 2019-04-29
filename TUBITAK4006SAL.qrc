@@ -8,5 +8,9 @@
     </qresource>
     <qresource prefix="/ICONS">
         <file>resimler/back.ico</file>
+        <file>resimler/power.ico</file>
+        <file>resimler/sal-logo.ico</file>
+        <file>resimler/magnifying-glass.ico</file>
+        <file>resimler/tubitak.ico</file>
     </qresource>
 </RCC>

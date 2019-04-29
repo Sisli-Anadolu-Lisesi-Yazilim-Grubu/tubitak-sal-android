@@ -53,3 +53,10 @@ HEADERS += \
     Kaynak_Dosyalar/veriler/veriler22.h \
     Kaynak_Dosyalar/veriler/veriler23.h \
     Kaynak_Dosyalar/veriler/veriler24.h
+
+RC_ICONS = app.ico
+
+contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
+    ANDROID_PACKAGE_SOURCE_DIR = \
+        $$PWD/../../../Desktop
+}
