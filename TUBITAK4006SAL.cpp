@@ -72,7 +72,7 @@ void proje_ekrani::on_bar_proje1_triggered()
     projeAd = nesne1->baslik1;
     projeYol = ":/photos/veriler/proje_fotorafları/1.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/1.jpg' width='200' height='170' /></p><p>" + nesne1->metin1 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/1.jpg' width='500' height='500' /></p><p>" + nesne1->metin1 + "</p>";
     const QString html2 = "<p align='center'>" + nesne1->baslik1 + "</p>";
 
     baslikLabel->setText(html2);
@@ -86,7 +86,7 @@ void proje_ekrani::on_bar_proje8_triggered()
     projeAd = nesne8->baslik8;
     projeYol = ":/photos/veriler/proje_fotorafları/8.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/8.jpg' width='200' height='170' /></p><p>" + nesne8->metin8 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/8.jpg' width='500' height='500' /></p><p>" + nesne8->metin8 + "</p>";
     const QString html2 = "<p align='center'>" + nesne8->baslik8 + "</p>";
 
     baslikLabel->setText(html2);
@@ -100,7 +100,7 @@ void proje_ekrani::on_bar_proje2_triggered()
     projeAd = nesne2->baslik2;
     projeYol = ":/photos/veriler/proje_fotorafları/2.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/2.jpg' width='200' height='170' /></p><p>" + nesne2->metin2 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/2.jpg' width='500' height='500' /></p><p>" + nesne2->metin2 + "</p>";
     const QString html2 = "<p align='center'>" + nesne2->baslik2 + "</p>";
 
     baslikLabel->setText(html2);
@@ -114,7 +114,7 @@ void proje_ekrani::on_bar_proje3_triggered()
     projeAd = nesne3->baslik3;
     projeYol = ":/photos/veriler/proje_fotorafları/3.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/3.jpg' width='200' height='170' /></p><p>" + nesne3->metin3 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/3.jpg' width='500' height='500' /></p><p>" + nesne3->metin3 + "</p>";
     const QString html2 = "<p align='center'>" + nesne3->baslik3 + "</p>";
 
     baslikLabel->setText(html2);
@@ -128,7 +128,7 @@ void proje_ekrani::on_bar_proje4_triggered()
     projeAd = nesne4->baslik4;
     projeYol = ":/photos/veriler/proje_fotorafları/4.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/4.jpg' width='200' height='170' /></p><p>" + nesne4->metin4 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/4.jpg' width='500' height='500' /></p><p>" + nesne4->metin4 + "</p>";
     const QString html2 = "<p align='center'>" + nesne4->baslik4 + "</p>";
 
     baslikLabel->setText(html2);
@@ -142,7 +142,7 @@ void proje_ekrani::on_bar_proje9_triggered()
     projeAd = nesne9->baslik9;
     projeYol = ":/photos/veriler/proje_fotorafları/9.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/9.jpg' width='200' height='170' /></p><p>" + nesne9->metin9 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/9.jpg' width='500' height='500' /></p><p>" + nesne9->metin9 + "</p>";
     const QString html2 = "<p align='center'>" + nesne9->baslik9 + "</p>";
 
     baslikLabel->setText(html2);
@@ -156,7 +156,7 @@ void proje_ekrani::on_bar_proje5_triggered()
     projeAd = nesne5->baslik5;
     projeYol = ":/photos/veriler/proje_fotorafları/5.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/5.jpg' width='200' height='170' /></p><p>" + nesne5->metin5 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/5.jpg' width='500' height='500' /></p><p>" + nesne5->metin5 + "</p>";
     const QString html2 = "<p align='center'>" + nesne5->baslik5 + "</p>";
 
     baslikLabel->setText(html2);
@@ -170,7 +170,7 @@ void proje_ekrani::on_bar_proje7_triggered()
     projeAd = nesne7->baslik7;
     projeYol = ":/photos/veriler/proje_fotorafları/7.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/7.jpg' width='200' height='170' /></p><p>" + nesne7->metin7 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/7.jpg' width='500' height='500' /></p><p>" + nesne7->metin7 + "</p>";
     const QString html2 = "<p align='center'>" + nesne7->baslik7 + "</p>";
 
     baslikLabel->setText(html2);
@@ -184,7 +184,7 @@ void proje_ekrani::on_bar_proje10_triggered()
     projeAd = nesne10->baslik10;
     projeYol = ":/photos/veriler/proje_fotorafları/10.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/10.jpg' width='200' height='170' /></p><p>" + nesne10->metin10 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/10.jpg' width='500' height='500' /></p><p>" + nesne10->metin10 + "</p>";
     const QString html2 = "<p align='center'>" + nesne10->baslik10 + "</p>";
 
     baslikLabel->setText(html2);
@@ -198,7 +198,7 @@ void proje_ekrani::on_bar_proje13_triggered()
     projeAd = nesne13->baslik13;
     projeYol = ":/photos/veriler/proje_fotorafları/13.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/13.jpg' width='200' height='170' /></p><p>" + nesne13->metin13 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/13.jpg' width='500' height='500' /></p><p>" + nesne13->metin13 + "</p>";
     const QString html2 = "<p align='center'>" + nesne13->baslik13 + "</p>";
 
     baslikLabel->setText(html2);
@@ -212,7 +212,7 @@ void proje_ekrani::on_bar_proje6_triggered()
     projeAd = nesne6->baslik6;
     projeYol = ":/photos/veriler/proje_fotorafları/6.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/6.jpg' width='200' height='170' /></p><p>" + nesne6->metin6 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/6.jpg' width='500' height='500' /></p><p>" + nesne6->metin6 + "</p>";
     const QString html2 = "<p align='center'>" + nesne6->baslik6 + "</p>";
 
     baslikLabel->setText(html2);
@@ -226,7 +226,7 @@ void proje_ekrani::on_bar_proje11_triggered()
     projeAd = nesne11->baslik11;
     projeYol = ":/photos/veriler/proje_fotorafları/11.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/11.jpg' width='200' height='170' /></p><p>" + nesne11->metin11 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/11.jpg' width='500' height='500' /></p><p>" + nesne11->metin11 + "</p>";
     const QString html2 = "<p align='center'>" + nesne11->baslik11 + "</p>";
 
     baslikLabel->setText(html2);
@@ -240,7 +240,7 @@ void proje_ekrani::on_bar_proje12_triggered()
     projeAd = nesne12->baslik12;
     projeYol = ":/photos/veriler/proje_fotorafları/12.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/12.jpg' width='200' height='170' /></p><p>" + nesne12->metin12 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/12.jpg' width='500' height='500' /></p><p>" + nesne12->metin12 + "</p>";
     const QString html2 = "<p align='center'>" + nesne12->baslik12 + "</p>";
 
     baslikLabel->setText(html2);
@@ -254,7 +254,7 @@ void proje_ekrani::on_bar_proje15_triggered()
     projeAd = nesne15->baslik15;
     projeYol = ":/photos/veriler/proje_fotorafları/15.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/15.jpg' width='200' height='170' /></p><p>" + nesne15->metin15 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/15.jpg' width='500' height='500' /></p><p>" + nesne15->metin15 + "</p>";
     const QString html2 = "<p align='center'>" + nesne15->baslik15 + "</p>";
 
     baslikLabel->setText(html2);
@@ -268,7 +268,7 @@ void proje_ekrani::on_bar_proje14_triggered()
     projeAd = nesne14->baslik14;
     projeYol = ":/photos/veriler/proje_fotorafları/14.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/14.jpg' width='200' height='170' /></p><p>" + nesne14->metin14 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/14.jpg' width='500' height='500' /></p><p>" + nesne14->metin14 + "</p>";
     const QString html2 = "<p align='center'>" + nesne14->baslik14 + "</p>";
 
     baslikLabel->setText(html2);
@@ -282,7 +282,7 @@ void proje_ekrani::on_bar_proje16_triggered()
     projeAd = nesne16->baslik16;
     projeYol = ":/photos/veriler/proje_fotorafları/16.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/16.jpg' width='200' height='170' /></p><p>" + nesne16->metin16 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/16.jpg' width='500' height='500' /></p><p>" + nesne16->metin16 + "</p>";
     const QString html2 = "<p align='center'>" + nesne16->baslik16 + "</p>";
 
     baslikLabel->setText(html2);
@@ -296,7 +296,7 @@ void proje_ekrani::on_bar_proje17_triggered()
     projeAd = nesne17->baslik17;
     projeYol = ":/photos/veriler/proje_fotorafları/17.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/17.jpg' width='200' height='170' /></p><p>" + nesne17->metin17 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/17.jpg' width='500' height='500' /></p><p>" + nesne17->metin17 + "</p>";
     const QString html2 = "<p align='center'>" + nesne17->baslik17 + "</p>";
 
     baslikLabel->setText(html2);
@@ -310,7 +310,7 @@ void proje_ekrani::on_bar_proje18_triggered()
     projeAd = nesne18->baslik18;
     projeYol = ":/photos/veriler/proje_fotorafları/18.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/18.jpg' width='200' height='170' /></p><p>" + nesne18->metin18 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/18.jpg' width='500' height='500' /></p><p>" + nesne18->metin18 + "</p>";
     const QString html2 = "<p align='center'>" + nesne18->baslik18 + "</p>";
 
     baslikLabel->setText(html2);
@@ -324,7 +324,7 @@ void proje_ekrani::on_bar_proje19_triggered()
     projeAd = nesne19->baslik19;
     projeYol = ":/photos/veriler/proje_fotorafları/19.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/19.jpg' width='200' height='170' /></p><p>" + nesne19->metin19 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/19.jpg' width='500' height='500' /></p><p>" + nesne19->metin19 + "</p>";
     const QString html2 = "<p align='center'>" + nesne19->baslik19 + "</p>";
 
     baslikLabel->setText(html2);
@@ -338,7 +338,7 @@ void proje_ekrani::on_bar_proje22_triggered()
     projeAd = nesne22->baslik22;
     projeYol = ":/photos/veriler/proje_fotorafları/22.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/22.jpg' width='200' height='170' /></p><p>" + nesne22->metin22 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/22.jpg' width='500' height='500' /></p><p>" + nesne22->metin22 + "</p>";
     const QString html2 = "<p align='center'>" + nesne22->baslik22 + "</p>";
 
     baslikLabel->setText(html2);
@@ -352,7 +352,7 @@ void proje_ekrani::on_bar_proje20_triggered()
     projeAd = nesne20->baslik20;
     projeYol = ":/photos/veriler/proje_fotorafları/20.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/20.jpg' width='200' height='170' /></p><p>" + nesne20->metin20 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/20.jpg' width='500' height='500' /></p><p>" + nesne20->metin20 + "</p>";
     const QString html2 = "<p align='center'>" + nesne20->baslik20 + "</p>";
 
     baslikLabel->setText(html2);
@@ -366,7 +366,7 @@ void proje_ekrani::on_bar_proje21_triggered()
     projeAd = nesne21->baslik21;
     projeYol = ":/photos/veriler/proje_fotorafları/21.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/21.jpg' width='200' height='170' /></p><p>" + nesne21->metin21 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/21.jpg' width='500' height='500' /></p><p>" + nesne21->metin21 + "</p>";
     const QString html2 = "<p align='center'>" + nesne21->baslik21 + "</p>";
 
     baslikLabel->setText(html2);
@@ -380,7 +380,7 @@ void proje_ekrani::on_bar_proje23_triggered()
     projeAd = nesne23->baslik23;
     projeYol = ":/photos/veriler/proje_fotorafları/23.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/23.jpg' width='200' height='170' /></p><p>" + nesne23->metin23 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/23.jpg' width='500' height='500' /></p><p>" + nesne23->metin23 + "</p>";
     const QString html2 = "<p align='center'>" + nesne23->baslik23 + "</p>";
 
     baslikLabel->setText(html2);
@@ -394,7 +394,7 @@ void proje_ekrani::on_bar_proje24_triggered()
     projeAd = nesne24->baslik24;
     projeYol = ":/photos/veriler/proje_fotorafları/24.jpg";
 
-    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/24.jpg' width='200' height='170' /></p><p>" + nesne24->metin24 + "</p>";
+    const QString html1 = "<p align='center'><img src=':/photos/veriler/proje_fotorafları/24.jpg' width='500' height='500' /></p><p>" + nesne24->metin24 + "</p>";
     const QString html2 = "<p align='center'>" + nesne24->baslik24 + "</p>";
 
     baslikLabel->setText(html2);
