@@ -17,17 +17,17 @@ OBJECTS_DIR += debug
 UI_DIR += ./GeneratedFiles
 RCC_DIR += ./GeneratedFiles
     ./TUBITAK4006SAL.h
-SOURCES += ./main.cpp \
-    ./TUBITAK4006SAL.cpp
-FORMS += ./girisEkrani.ui \
-    ./okul.ui \
-    ./projeEkran1.ui \
-    ./picture-screen.ui
-RESOURCES += TUBITAK4006SAL.qrc \
-    veriler.qrc
+SOURCES += ./Kaynak_Dosyalar/main.cpp \
+    ./Kaynak_Dosyalar/TUBITAK4006SAL.cpp
+FORMS += ./formlar/girisEkrani.ui \
+    ./formlar/okul.ui \
+    ./formlar/projeEkran1.ui \
+    ./formlar/picture-screen.ui
+RESOURCES += resources/TUBITAK4006SAL.qrc \
+    resources/veriler.qrc
 
 HEADERS += \
-    TUBITAK4006SAL.h \
+    Kaynak_Dosyalar/TUBITAK4006SAL.h \
     Kaynak_Dosyalar/namespace.h \
     Kaynak_Dosyalar/veriler/veriler1.h \
     Kaynak_Dosyalar/veriler/veriler2.h \
