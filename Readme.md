@@ -4,6 +4,6 @@
 
 
 
-Bu uygulama Qt Framework kullanılarak kapılmıştır.
+Bu uygulama Qt Framework kullanılarak yapılmıştır.
 
 İletişim: SametHUB732@gmail.com
