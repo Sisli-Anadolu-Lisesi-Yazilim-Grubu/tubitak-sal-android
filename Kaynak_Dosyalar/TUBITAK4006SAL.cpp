@@ -2,7 +2,7 @@
 
 giris_ekrani::giris_ekrani() {
 	setupUi(this);
-    versionBar->showMessage("v1.0"); // versiyon numarası
+    versionBar->showMessage("v1.0.1"); // versiyon numarası
 
 	QTimer *timer = new QTimer;
 	timer->setSingleShot(true);

@@ -459,7 +459,7 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
      <normaloff>:/ICONS/resimler/tubitak.png</normaloff>:/ICONS/resimler/tubitak.png</iconset>
    </property>
    <property name="text">
-    <string>Bireylere Dayatılan Toplumsal Cinsiyet Kalıbı</string>
+    <string>Bireylere Dayatılan Cinsiyet</string>
    </property>
   </action>
   <action name="bar_proje14">
