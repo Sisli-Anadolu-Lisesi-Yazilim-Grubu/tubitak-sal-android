@@ -28,9 +28,9 @@ Program::Program(QObject *parent) : QObject(parent)
     nesne24 = new TUBITAK::proje24;
 }
 
-Q_INVOKABLE void Program::degerAta(int x)
+Q_INVOKABLE void Program::degerAta(int value)
 {
-    i = x;
+    i = value;
 }
 
 Q_INVOKABLE QString Program::dondurBaslik()
