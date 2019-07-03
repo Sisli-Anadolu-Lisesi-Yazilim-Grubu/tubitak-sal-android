@@ -47,13 +47,16 @@ Image {
                 contentWidth: parent.width
                 clip: true
 
-                Label {
-                    id: metin
-                    width: scrollView.width
-                    height: scrollView.height
-                    text: qsTr("\nSağ üst köşeden proje seçiniz...\n\nResime dokunarak resimi büyütebilrsiniz...")
-                    font.family: "Verdana"
-                    wrapMode: Text.WordWrap
+                Column {
+                    id: scrollLayout
+                    anchors.fill: parent
+
+                    Label {
+                        id: metin
+                        text: qsTr("\nSağ üst köşeden proje seçiniz...\n\nResime dokunarak resimi büyütebilrsiniz...")
+                        wrapMode: Text.WordWrap
+                        width: parent.width
+                    }
                 }
             }
         }
