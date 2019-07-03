@@ -60,4 +60,7 @@ HEADERS += \
     Kaynak_Dosyalar/namespace.h \
     Kaynak_Dosyalar/program.h
 
-DISTFILES +=
+DISTFILES += \
+    Readme.md \
+    Kaynak_Dosyalar/Readme.md \
+    Kaynak_Dosyalar/veriler/Readme.md
