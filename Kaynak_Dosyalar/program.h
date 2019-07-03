@@ -37,7 +37,7 @@ public:
     explicit Program(QObject *parent = nullptr);
 
     int i;
-    Q_INVOKABLE void degerAta(int x);
+    Q_INVOKABLE void degerAta(int value);
     Q_INVOKABLE QString dondurBaslik();
     Q_INVOKABLE QString dondurMetin();
     Q_INVOKABLE QString dondurYapan();
