@@ -1,4 +1,4 @@
-﻿TÜBİTAK 4006 ŞAL v1.1
+﻿TÜBİTAK 4006 ŞAL v2.0
 
 Şişli Anadolu Lisesi'nin TÜBİTAK 4006 ŞAL uygulamasıdır.
 
