@@ -1,15 +1,21 @@
-#include "TUBITAK4006SAL.h"
-#include <QtWidgets/QApplication>
+#include <QGuiApplication>
+#include <QQmlApplicationEngine>
+#include <QDir>
+#include "program.h"
 
 int main(int argc, char *argv[])
 {
-	QApplication a(argc, argv);
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QGuiApplication app(argc, argv);
 
-    QCoreApplication :: setApplicationName ( "TÜBİTAK 4006 ŞAL" ) ; // uygulama adı
-    QCoreApplication :: setOrganizationName ( "Şişli Anadolu Lisesi" ) ; // organizasyon adı
+    QScopedPointer<Program> program(new Program);
 
-	giris_ekrani *nesne = new giris_ekrani;
-	nesne->show();
+    QQmlApplicationEngine engine;
+    engine.load(QUrl(QStringLiteral("qrc:/Qml/main.qml")));
+    if (engine.rootObjects().isEmpty())
+        return -1;
 
-	return a.exec();
+    engine.rootContext()->setContextProperty("program", program.data());
+
+    return app.exec();
 }

@@ -1,18 +1,18 @@
 #include <QString>
 
 /* 
+    v2.0 Beta
+--------------------------
 	Samet Sevindik
 	Furkan Bağ
 	Gökhan Pınarcı
 	Ali Contarlı
 	Fatih Mehmet Gümüşçü
-	
-	v1.0
-	22.04.2019
 */
 
 namespace TUBITAK {
-	
+
+
 	class proje1;
 	class proje2;
 	class proje3;
