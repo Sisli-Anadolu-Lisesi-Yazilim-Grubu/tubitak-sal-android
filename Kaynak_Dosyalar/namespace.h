@@ -1,7 +1,7 @@
 #include <QString>
 
 /* 
-    v2.0 Beta
+    v1.5 Beta
 --------------------------
 	Samet Sevindik
 	Furkan Bağ
@@ -11,7 +11,6 @@
 */
 
 namespace TUBITAK {
-
 
 	class proje1;
 	class proje2;
