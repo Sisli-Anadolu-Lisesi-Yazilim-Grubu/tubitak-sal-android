@@ -256,7 +256,10 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Annesiz Büyüyen Şairler")
-                            
+                            onTriggered: {
+                                program.degerAta(20);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
 
@@ -265,6 +268,10 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Küresel Isınma ve İklim Değişikliliği")
+                            onTriggered: {
+                                program.degerAta(21);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
 
@@ -273,6 +280,10 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Apptionary")
+                            onTriggered: {
+                                program.degerAta(22);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
 
@@ -281,6 +292,10 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Olasılık Konusu Hakkında Oyun")
+                            onTriggered: {
+                                program.degerAta(23);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
 
@@ -289,6 +304,10 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Almanca Sıfatlarının Öğretilmesi")
+                            onTriggered: {
+                                program.degerAta(24);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
                 }
