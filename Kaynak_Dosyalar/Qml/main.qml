@@ -263,7 +263,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Annesiz Büyüyen Şairler")
                             onTriggered: {
-                                program.degerAta(20);
+                                program.degerAta(17); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
