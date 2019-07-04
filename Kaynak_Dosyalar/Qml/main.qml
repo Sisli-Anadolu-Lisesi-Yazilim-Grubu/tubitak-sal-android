@@ -182,7 +182,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Gen Aktarımı")
                             onTriggered: {
-                                program.degerAta(10);
+                                program.degerAta(11);
                                 proje_Ekrani.item.projeAc()
                             }
                         }
