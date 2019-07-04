@@ -311,7 +311,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Almanca Sıfatlarının Öğretilmesi")
                             onTriggered: {
-                                program.degerAta(24);
+                                program.degerAta(23);
                                 proje_Ekrani.item.projeAc()
                             }
                         }
