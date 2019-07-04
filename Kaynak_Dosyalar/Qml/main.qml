@@ -110,6 +110,10 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Şişli Yerel Tarih Farkındalığı")
+                              onTriggered: {
+                                program.degerAta(3);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
 
