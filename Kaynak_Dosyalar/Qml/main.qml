@@ -239,7 +239,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Suçlularla Empati")
                             onTriggered: {
-                                program.degerAta(10); // 
+                                program.degerAta(10); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -311,7 +311,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Almanca Sıfatlarının Öğretilmesi")
                             onTriggered: {
-                                program.degerAta(23);
+                                program.degerAta(23); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
