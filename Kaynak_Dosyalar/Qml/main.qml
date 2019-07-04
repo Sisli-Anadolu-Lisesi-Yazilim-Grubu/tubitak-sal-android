@@ -350,7 +350,7 @@ ApplicationWindow {
                 tab1_background.color = "#25258e"
                 tab_background.color = "grey"
             }
-
+            
             Rectangle {
                 id: tab1_background
                 anchors.fill: parent
