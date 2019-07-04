@@ -203,7 +203,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Yürüyen Kristaller")
                             onTriggered: {
-                                program.degerAta(13); // hatatatata
+                                program.degerAta(2); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
