@@ -299,7 +299,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Olasılık Konusu Hakkında Oyun")
                             onTriggered: {
-                                program.degerAta(23);
+                                program.degerAta(20); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
