@@ -219,7 +219,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kırmızı-Mavi")
                             onTriggered: {
-                                program.degerAta(24); // tamam
+                                program.degerAta(23); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -311,7 +311,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Almanca Sıfatlarının Öğretilmesi")
                             onTriggered: {
-                                program.degerAta(23); // tamam
+                                program.degerAta(24); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
