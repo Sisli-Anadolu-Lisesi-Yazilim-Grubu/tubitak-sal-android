@@ -231,7 +231,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İleri Düşün Geri Dönüştür")
                             onTriggered: {
-                                program.degerAta(16);
+                                program.degerAta(6); // tamam 
                                 proje_Ekrani.item.projeAc()
                             }
                         }
