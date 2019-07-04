@@ -113,7 +113,7 @@ ApplicationWindow {
                             text: qsTr("Şişli Yerel Tarih Farkındalığı")
                             
                               onTriggered: {
-                                program.degerAta(19); //tamam
+                                program.degerAta(20); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -158,7 +158,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Vitaminli Jenerasyon")
                             onTriggered: {
-                                program.degerAta(9); // tamam
+                                program.degerAta(10); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -219,7 +219,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kırmızı-Mavi")
                             onTriggered: {
-                                program.degerAta(22); // tamam
+                                program.degerAta(24); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -239,7 +239,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Suçlularla Empati")
                             onTriggered: {
-                                program.degerAta(10); // tamam
+                                program.degerAta(11); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -247,7 +247,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İstanbul'da Yaşamış Edebiyatçılar")
                             onTriggered: {
-                                program.degerAta(11); // tamam 
+                                program.degerAta(12); // tamam 
                                 proje_Ekrani.item.projeAc()
                             }
                         }
