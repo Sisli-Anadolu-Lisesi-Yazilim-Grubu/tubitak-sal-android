@@ -239,7 +239,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Suçlularla Empati")
                             onTriggered: {
-                                program.degerAta(17);
+                                program.degerAta(10); // 
                                 proje_Ekrani.item.projeAc()
                             }
                         }
