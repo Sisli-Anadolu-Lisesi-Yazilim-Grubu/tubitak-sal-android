@@ -219,7 +219,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kırmızı-Mavi")
                             onTriggered: {
-                                program.degerAta(15);
+                                program.degerAta(22); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
