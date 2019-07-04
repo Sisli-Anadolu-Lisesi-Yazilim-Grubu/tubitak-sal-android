@@ -247,7 +247,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İstanbul'da Yaşamış Edebiyatçılar")
                             onTriggered: {
-                                program.degerAta(11); //
+                                program.degerAta(11); // tamam 
                                 proje_Ekrani.item.projeAc()
                             }
                         }
