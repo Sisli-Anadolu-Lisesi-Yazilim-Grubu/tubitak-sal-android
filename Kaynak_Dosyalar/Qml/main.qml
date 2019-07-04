@@ -102,6 +102,7 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Nil Deltasında Solmuş Bir Çiçek")
+                            
                             onTriggered: {
                                 program.degerAta(2);
                                 proje_Ekrani.item.projeAc()
@@ -110,6 +111,7 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Şişli Yerel Tarih Farkındalığı")
+                            
                               onTriggered: {
                                 program.degerAta(3);
                                 proje_Ekrani.item.projeAc()
@@ -122,9 +124,9 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Arıtılan Bakteri")
-                            
+                          
                             onTriggered: {
-                                program.degerAta(3);
+                                program.degerAta(4);
                                 proje_Ekrani.item.projeAc()
                             }
                         }
