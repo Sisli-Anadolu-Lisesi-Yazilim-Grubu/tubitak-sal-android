@@ -134,7 +134,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İdeal Su")
                             onTriggered: {
-                                program.degerAta(5);
+                                program.degerAta(3); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
