@@ -166,7 +166,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kompost")
                             onTriggered: {
-                                program.degerAta(12); //tamam
+                                program.degerAta(12); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -174,7 +174,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Aktif Karbon")
                             onTriggered: {
-                                program.degerAta(10);
+                                program.degerAta(18); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
