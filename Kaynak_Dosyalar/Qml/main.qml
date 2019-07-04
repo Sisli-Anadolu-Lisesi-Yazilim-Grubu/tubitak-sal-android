@@ -275,7 +275,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Küresel Isınma ve İklim Değişikliliği")
                             onTriggered: {
-                                program.degerAta(21);
+                                program.degerAta(13); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
