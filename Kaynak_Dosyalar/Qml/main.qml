@@ -126,7 +126,7 @@ ApplicationWindow {
                             text: qsTr("Arıtılan Bakteri")
                           
                             onTriggered: {
-                                program.degerAta(4);
+                                program.degerAta(2); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
