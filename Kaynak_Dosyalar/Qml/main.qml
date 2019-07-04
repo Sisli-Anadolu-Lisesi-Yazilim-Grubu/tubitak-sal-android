@@ -113,7 +113,7 @@ ApplicationWindow {
                             text: qsTr("Şişli Yerel Tarih Farkındalığı")
                             
                               onTriggered: {
-                                program.degerAta(3);
+                                program.degerAta(19); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
