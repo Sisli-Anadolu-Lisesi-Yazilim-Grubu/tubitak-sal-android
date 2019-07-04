@@ -142,7 +142,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Ses Frekansının Filizlenmeye Etkisi")
                             onTriggered: {
-                                program.degerAta(6);
+                                program.degerAta(4); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
