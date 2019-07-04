@@ -102,7 +102,7 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Nil Deltasında Solmuş Bir Çiçek")
-                            
+
                             onTriggered: {
                                 program.degerAta(8); // tamam
                                 proje_Ekrani.item.projeAc()
@@ -111,7 +111,7 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Şişli Yerel Tarih Farkındalığı")
-                            
+
                               onTriggered: {
                                 program.degerAta(20); //tamam
                                 proje_Ekrani.item.projeAc()
@@ -124,7 +124,7 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Arıtılan Bakteri")
-                          
+
                             onTriggered: {
                                 program.degerAta(2); //tamam
                                 proje_Ekrani.item.projeAc()
@@ -166,7 +166,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kompost")
                             onTriggered: {
-                                program.degerAta(12); // tamam
+                                program.degerAta(13); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -190,7 +190,7 @@ ApplicationWindow {
 
                     Menu {
                         title: qsTr("Fizik")
-                        
+
 
                         MenuItem {
                             text: qsTr("Görmeden Kalkan Engeller")
@@ -231,7 +231,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İleri Düşün Geri Dönüştür")
                             onTriggered: {
-                                program.degerAta(6); // tamam 
+                                program.degerAta(6); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -247,7 +247,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İstanbul'da Yaşamış Edebiyatçılar")
                             onTriggered: {
-                                program.degerAta(12); // tamam 
+                                program.degerAta(12); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -255,7 +255,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Bireylere Dayatılan Cinsiyet")
                             onTriggered: {
-                                program.degerAta(15); // tamam 
+                                program.degerAta(15); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -263,7 +263,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Annesiz Büyüyen Şairler")
                             onTriggered: {
-                                program.degerAta(); // tamam
+                                program.degerAta(18); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -299,7 +299,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Olasılık Konusu Hakkında Oyun")
                             onTriggered: {
-                                program.degerAta(20); // tamam
+                                program.degerAta(21); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -350,7 +350,7 @@ ApplicationWindow {
                 tab1_background.color = "#25258e"
                 tab_background.color = "grey"
             }
-            
+
             Rectangle {
                 id: tab1_background
                 anchors.fill: parent
