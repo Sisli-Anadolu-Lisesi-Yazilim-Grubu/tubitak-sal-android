@@ -195,7 +195,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Görmeden Kalkan Engeller")
                             onTriggered: {
-                                program.degerAta(11);
+                                program.degerAta(12);
                                 proje_Ekrani.item.projeAc()
                             }
                         }
