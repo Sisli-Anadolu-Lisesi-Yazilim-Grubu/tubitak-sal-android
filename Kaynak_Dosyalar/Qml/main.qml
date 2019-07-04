@@ -203,7 +203,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Yürüyen Kristaller")
                             onTriggered: {
-                                program.degerAta(13);
+                                program.degerAta(13); // hatatatata
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -211,7 +211,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kasislere Son")
                             onTriggered: {
-                                program.degerAta(14);
+                                program.degerAta(15); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
