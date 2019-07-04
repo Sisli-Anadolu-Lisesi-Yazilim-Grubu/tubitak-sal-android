@@ -82,7 +82,7 @@ ApplicationWindow {
             }
 
             ToolButton {
-                text: qsTr("⋮")
+                text: qsTr("?")
                 onClicked: menu.open()
                 anchors.right: parent.right
 
@@ -118,54 +118,104 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("Arıtılan Bakteri")
+                            
+                            onTriggered: {
+                                program.degerAta(3);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("İdeal Su")
+                            onTriggered: {
+                                program.degerAta(4);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Ses Frekansının Filizlenmeye Etkisi")
+                            onTriggered: {
+                                program.degerAta(5);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Hem Bakımlı Hem Sağlıklı Ol")
+                            onTriggered: {
+                                program.degerAta(6);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Vitaminli Jenerasyon")
+                            onTriggered: {
+                                program.degerAta(7);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Kompost")
+                            onTriggered: {
+                                program.degerAta(8);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Aktif Karbon")
+                            onTriggered: {
+                                program.degerAta(9);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Gen Aktarımı")
+                            onTriggered: {
+                                program.degerAta(10);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
 
                     Menu {
                         title: qsTr("Fizik")
+                        
 
                         MenuItem {
                             text: qsTr("Görmeden Kalkan Engeller")
+                            onTriggered: {
+                                program.degerAta(11);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Yürüyen Kristaller")
+                            onTriggered: {
+                                program.degerAta(12);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Kasislere Son")
+                            onTriggered: {
+                                program.degerAta(14);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Kırmızı-Mavi")
+                            onTriggered: {
+                                program.degerAta(15);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
                     }
 
@@ -174,22 +224,39 @@ ApplicationWindow {
 
                         MenuItem {
                             text: qsTr("İleri Düşün Geri Dönüştür")
+                            onTriggered: {
+                                program.degerAta(16);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Suçlularla Empati")
+                            onTriggered: {
+                                program.degerAta(17);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("İstanbul'da Yaşamış Edebiyatçılar")
+                            onTriggered: {
+                                program.degerAta(18);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Bireylere Dayatılan Cinsiyet")
+                            onTriggered: {
+                                program.degerAta(19);
+                                proje_Ekrani.item.projeAc()
+                            }
                         }
 
                         MenuItem {
                             text: qsTr("Annesiz Büyüyen Şairler")
+                            
                         }
                     }
 
