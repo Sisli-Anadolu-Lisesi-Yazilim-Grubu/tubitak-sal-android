@@ -150,7 +150,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Hem Bakımlı Hem Sağlıklı Ol")
                             onTriggered: {
-                                program.degerAta(6);
+                                program.degerAta(7);
                                 proje_Ekrani.item.projeAc()
                             }
                         }
