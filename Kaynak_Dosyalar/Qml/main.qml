@@ -82,7 +82,7 @@ ApplicationWindow {
             }
 
             ToolButton {
-                text: qsTr("?")
+                text: qsTr("????")
                 onClicked: menu.open()
                 anchors.right: parent.right
 
@@ -104,7 +104,7 @@ ApplicationWindow {
                             text: qsTr("Nil Deltasında Solmuş Bir Çiçek")
                             
                             onTriggered: {
-                                program.degerAta(7); // tamam
+                                program.degerAta(8); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -174,7 +174,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Aktif Karbon")
                             onTriggered: {
-                                program.degerAta(18); // tamam
+                                program.degerAta(19); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
