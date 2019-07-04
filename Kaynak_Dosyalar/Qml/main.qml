@@ -166,7 +166,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kompost")
                             onTriggered: {
-                                program.degerAta(9);
+                                program.degerAta(12); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
