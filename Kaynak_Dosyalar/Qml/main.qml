@@ -104,7 +104,7 @@ ApplicationWindow {
                             text: qsTr("Nil Deltasında Solmuş Bir Çiçek")
                             
                             onTriggered: {
-                                program.degerAta(2);
+                                program.degerAta(7); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
