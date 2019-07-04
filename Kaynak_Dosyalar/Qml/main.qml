@@ -158,7 +158,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Vitaminli Jenerasyon")
                             onTriggered: {
-                                program.degerAta(7);
+                                program.degerAta(8);
                                 proje_Ekrani.item.projeAc()
                             }
                         }
