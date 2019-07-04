@@ -287,7 +287,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Apptionary")
                             onTriggered: {
-                                program.degerAta(22);
+                                program.degerAta(16); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
