@@ -174,7 +174,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Aktif Karbon")
                             onTriggered: {
-                                program.degerAta(9);
+                                program.degerAta(10);
                                 proje_Ekrani.item.projeAc()
                             }
                         }
