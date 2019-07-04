@@ -211,7 +211,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kasislere Son")
                             onTriggered: {
-                                program.degerAta(15); // tamam
+                                program.degerAta(16); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -255,7 +255,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Bireylere Dayatılan Cinsiyet")
                             onTriggered: {
-                                program.degerAta(14); // tamam 
+                                program.degerAta(15); // tamam 
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -263,7 +263,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Annesiz Büyüyen Şairler")
                             onTriggered: {
-                                program.degerAta(17); // tamam
+                                program.degerAta(); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -275,7 +275,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Küresel Isınma ve İklim Değişikliliği")
                             onTriggered: {
-                                program.degerAta(13); // tamam
+                                program.degerAta(14); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -287,7 +287,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Apptionary")
                             onTriggered: {
-                                program.degerAta(16); // tamam
+                                program.degerAta(17); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
