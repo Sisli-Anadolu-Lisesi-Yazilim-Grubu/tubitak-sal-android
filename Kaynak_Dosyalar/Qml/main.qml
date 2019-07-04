@@ -255,7 +255,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Bireylere Dayatılan Cinsiyet")
                             onTriggered: {
-                                program.degerAta(19);
+                                program.degerAta(14); // tamam 
                                 proje_Ekrani.item.projeAc()
                             }
                         }
