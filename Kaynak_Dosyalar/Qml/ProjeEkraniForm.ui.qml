@@ -14,7 +14,7 @@ Image {
         width: parent.width / 1.25
         height: parent.height / 1.1
         anchors.centerIn: parent
-        spacing: height / 10 - 2
+        spacing: height / 10 - 25
 
         Rectangle {
             id: label_background
@@ -22,6 +22,9 @@ Image {
             anchors.horizontalCenter: parent.horizontalCenter
             width: baslik.width + 10
             height: baslik.height + 10
+            radius: 10
+            border.color: "grey"
+            border.width: 2
 
             Label {
                 id: baslik
@@ -40,12 +43,19 @@ Image {
             width: parent.width
             height: parent.height - (parent.spacing + label_background.height)
             color: "#ffffff"
+            radius: 10
+            border.color: "grey"
+            border.width: 3
 
             ScrollView {
                 id: scrollView
                 anchors.fill: parent
-                contentWidth: parent.width
+                contentWidth: parent.width - 10
                 clip: true
+                anchors.leftMargin: 5
+                anchors.rightMargin: 5
+                anchors.bottomMargin: 5
+                anchors.topMargin: 5
 
                 Column {
                     id: scrollLayout
@@ -62,10 +72,3 @@ Image {
         }
     }
 }
-
-
-
-/*##^## Designer {
-    D{i:5;anchors_height:200;anchors_width:200;anchors_x:0;anchors_y:0}
-}
- ##^##*/

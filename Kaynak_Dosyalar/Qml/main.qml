@@ -82,7 +82,7 @@ ApplicationWindow {
             }
 
             ToolButton {
-                text: qsTr("⋮")
+                text: qsTr(":")
                 onClicked: menu.open()
                 anchors.right: parent.right
 
@@ -104,7 +104,7 @@ ApplicationWindow {
                             text: qsTr("Nil Deltasında Solmuş Bir Çiçek")
 
                             onTriggered: {
-                                program.degerAta(2);
+                                program.degerAta(8); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -113,7 +113,7 @@ ApplicationWindow {
                             text: qsTr("Şişli Yerel Tarih Farkındalığı")
 
                               onTriggered: {
-                                program.degerAta(3);
+                                program.degerAta(20); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -126,7 +126,7 @@ ApplicationWindow {
                             text: qsTr("Arıtılan Bakteri")
 
                             onTriggered: {
-                                program.degerAta(4);
+                                program.degerAta(2); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -134,7 +134,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İdeal Su")
                             onTriggered: {
-                                program.degerAta(5);
+                                program.degerAta(3); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -142,7 +142,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Ses Frekansının Filizlenmeye Etkisi")
                             onTriggered: {
-                                program.degerAta(6);
+                                program.degerAta(4); //tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -150,7 +150,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Hem Bakımlı Hem Sağlıklı Ol")
                             onTriggered: {
-                                program.degerAta(7);
+                                program.degerAta(9); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -158,7 +158,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Vitaminli Jenerasyon")
                             onTriggered: {
-                                program.degerAta(8);
+                                program.degerAta(10); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -166,7 +166,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kompost")
                             onTriggered: {
-                                program.degerAta(9);
+                                program.degerAta(13); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -174,7 +174,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Aktif Karbon")
                             onTriggered: {
-                                program.degerAta(10);
+                                program.degerAta(19); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -182,7 +182,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Gen Aktarımı")
                             onTriggered: {
-                                program.degerAta(11);
+                                program.degerAta(22); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -195,7 +195,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Görmeden Kalkan Engeller")
                             onTriggered: {
-                                program.degerAta(12);
+                                program.degerAta(5); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -203,7 +203,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Yürüyen Kristaller")
                             onTriggered: {
-                                program.degerAta(13);
+                                program.degerAta(7); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -211,7 +211,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kasislere Son")
                             onTriggered: {
-                                program.degerAta(14);
+                                program.degerAta(16); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -219,7 +219,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Kırmızı-Mavi")
                             onTriggered: {
-                                program.degerAta(15);
+                                program.degerAta(23); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -231,7 +231,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İleri Düşün Geri Dönüştür")
                             onTriggered: {
-                                program.degerAta(16);
+                                program.degerAta(6); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -239,7 +239,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Suçlularla Empati")
                             onTriggered: {
-                                program.degerAta(17);
+                                program.degerAta(11); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -247,7 +247,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("İstanbul'da Yaşamış Edebiyatçılar")
                             onTriggered: {
-                                program.degerAta(18);
+                                program.degerAta(12); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -255,7 +255,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Bireylere Dayatılan Cinsiyet")
                             onTriggered: {
-                                program.degerAta(19);
+                                program.degerAta(15); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -263,7 +263,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Annesiz Büyüyen Şairler")
                             onTriggered: {
-                                program.degerAta(20);
+                                program.degerAta(18); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -275,7 +275,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Küresel Isınma ve İklim Değişikliliği")
                             onTriggered: {
-                                program.degerAta(21);
+                                program.degerAta(14); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -287,7 +287,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Apptionary")
                             onTriggered: {
-                                program.degerAta(22);
+                                program.degerAta(17); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -299,7 +299,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Olasılık Konusu Hakkında Oyun")
                             onTriggered: {
-                                program.degerAta(23);
+                                program.degerAta(21); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }
@@ -311,7 +311,7 @@ ApplicationWindow {
                         MenuItem {
                             text: qsTr("Almanca Sıfatlarının Öğretilmesi")
                             onTriggered: {
-                                program.degerAta(24);
+                                program.degerAta(24); // tamam
                                 proje_Ekrani.item.projeAc()
                             }
                         }

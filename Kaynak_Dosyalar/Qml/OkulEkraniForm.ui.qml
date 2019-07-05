@@ -12,7 +12,7 @@ Image {
         width: parent.width / 1.25
         height: parent.height / 1.1
         anchors.centerIn: parent
-        spacing: height / 10 - 2
+        spacing: height / 10 - 25
 
         Rectangle {
             id: label_background
@@ -20,6 +20,9 @@ Image {
             anchors.horizontalCenter: parent.horizontalCenter
             width: label.width + 10
             height: label.height + 10
+            border.color: "grey"
+            radius: 10
+            border.width: 2
 
             Label {
                 id: label
@@ -38,12 +41,19 @@ Image {
             width: parent.width
             height: parent.height - (parent.spacing + label_background.height)
             color: "#ffffff"
+            border.color: "grey"
+            radius: 10
+            border.width: 3
 
             ScrollView {
                 id: scrollView
                 anchors.fill: parent
-                contentWidth: parent.width
+                contentWidth: parent.width - 10
                 clip: true
+                anchors.leftMargin: 5
+                anchors.rightMargin: 5
+                anchors.bottomMargin: 5
+                anchors.topMargin: 5
 
                 Label {
                     id: metin
@@ -62,11 +72,3 @@ Image {
         }
     }
 }
-
-
-
-
-/*##^## Designer {
-    D{i:5;anchors_height:200;anchors_width:200;anchors_x:0;anchors_y:0}
-}
- ##^##*/
