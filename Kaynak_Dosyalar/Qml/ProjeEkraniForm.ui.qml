@@ -65,7 +65,6 @@ Image {
 
 
 
-
 /*##^## Designer {
     D{i:5;anchors_height:200;anchors_width:200;anchors_x:0;anchors_y:0}
 }
