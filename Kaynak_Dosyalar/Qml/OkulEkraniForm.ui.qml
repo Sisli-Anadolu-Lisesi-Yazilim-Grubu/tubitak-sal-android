@@ -9,7 +9,7 @@ Image {
 
     Column {
         id: column
-        width: parent.width / 1.25
+        width: parent.width / 1.1
         height: parent.height / 1.1
         anchors.centerIn: parent
         spacing: height / 10 - 25

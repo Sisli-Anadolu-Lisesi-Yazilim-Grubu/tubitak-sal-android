@@ -7,5 +7,6 @@
         <file>Qml/OkulEkrani.qml</file>
         <file>Qml/main.qml</file>
         <file>Qml/ProjeEkrani.qml</file>
+        <file>Qml/ActionBar.qml</file>
     </qresource>
 </RCC>

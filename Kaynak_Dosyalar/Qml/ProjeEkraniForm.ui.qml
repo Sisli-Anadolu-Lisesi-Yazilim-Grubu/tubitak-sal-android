@@ -2,8 +2,11 @@ import QtQuick 2.12
 import QtQuick.Controls 2.3
 
 Image {
+    id: root
     width: 480
     height: 640
+    property alias mouseArea: mouseArea
+    property alias image: image
     property alias baslik: baslik
     property alias metin: metin
     source: "qrc:/resimler/resimler/arkaplan.jpg"
@@ -11,7 +14,7 @@ Image {
 
     Column {
         id: column
-        width: parent.width / 1.25
+        width: parent.width / 1.1
         height: parent.height / 1.1
         anchors.centerIn: parent
         spacing: height / 10 - 25
@@ -60,6 +63,22 @@ Image {
                 Column {
                     id: scrollLayout
                     anchors.fill: parent
+                    spacing: 2
+
+                    Image {
+                        id: image
+                        width: (root.width - 80) / 2
+                        height: (root.height - 40) / 3
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        fillMode: Image.PreserveAspectFit
+                        source: ""
+                        visible: false
+
+                        MouseArea {
+                            id: mouseArea
+                            anchors.fill: parent
+                        }
+                    }
 
                     Label {
                         id: metin

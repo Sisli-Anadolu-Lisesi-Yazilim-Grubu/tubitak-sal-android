@@ -20,7 +20,7 @@ ApplicationWindow {
                 swipeView.visible = true
                 giris_Ekrani.visible = false
                 tabBar.visible = true
-                toolbar.visible = true
+                actionBar.visible = true
             }
         }
     }
@@ -33,14 +33,14 @@ ApplicationWindow {
         onCurrentIndexChanged: {
             if (currentIndex == 0)
             {
-                toolbar.visible = true
+                actionBar.visible = true
                 tab_background.color = "#25258e"
                 tab1_background.color = "grey"
             }
 
             else if (currentIndex == 1)
             {
-                toolbar.visible = false
+                actionBar.visible = false
                 tab_background.color = "grey"
                 tab1_background.color = "#25258e"
             }
@@ -69,256 +69,34 @@ ApplicationWindow {
         }
     }
 
-    header: ToolBar {
-        id: toolbar
+    header: ActionBar {
+        id: actionBar
         visible: false
-
-        RowLayout {
-            anchors.fill: parent
-
-            Label {
-                text: qsTr("TÜBİTAK 4006 ŞAL")
-                anchors.centerIn: parent
-            }
-
-            ToolButton {
-                text: qsTr(":")
-                onClicked: menu.open()
-                anchors.right: parent.right
-
-                Menu {
-                    id: menu
-
-                    Menu {
-                        title: qsTr("Tarih")
-
-                        MenuItem {
-                            text: qsTr("Şişli'nin Dünü ve Bugünü")
-                            onTriggered: {
-                                program.degerAta(1);
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Nil Deltasında Solmuş Bir Çiçek")
-
-                            onTriggered: {
-                                program.degerAta(8); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Şişli Yerel Tarih Farkındalığı")
-
-                              onTriggered: {
-                                program.degerAta(20); //tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-
-                    Menu {
-                        title: qsTr("Biyoloji")
-
-                        MenuItem {
-                            text: qsTr("Arıtılan Bakteri")
-
-                            onTriggered: {
-                                program.degerAta(2); //tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("İdeal Su")
-                            onTriggered: {
-                                program.degerAta(3); //tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Ses Frekansının Filizlenmeye Etkisi")
-                            onTriggered: {
-                                program.degerAta(4); //tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Hem Bakımlı Hem Sağlıklı Ol")
-                            onTriggered: {
-                                program.degerAta(9); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Vitaminli Jenerasyon")
-                            onTriggered: {
-                                program.degerAta(10); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Kompost")
-                            onTriggered: {
-                                program.degerAta(13); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Aktif Karbon")
-                            onTriggered: {
-                                program.degerAta(19); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Gen Aktarımı")
-                            onTriggered: {
-                                program.degerAta(22); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-
-                    Menu {
-                        title: qsTr("Fizik")
-
-
-                        MenuItem {
-                            text: qsTr("Görmeden Kalkan Engeller")
-                            onTriggered: {
-                                program.degerAta(5); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Yürüyen Kristaller")
-                            onTriggered: {
-                                program.degerAta(7); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Kasislere Son")
-                            onTriggered: {
-                                program.degerAta(16); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Kırmızı-Mavi")
-                            onTriggered: {
-                                program.degerAta(23); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-
-                    Menu {
-                        title: qsTr("Edebiyat")
-
-                        MenuItem {
-                            text: qsTr("İleri Düşün Geri Dönüştür")
-                            onTriggered: {
-                                program.degerAta(6); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Suçlularla Empati")
-                            onTriggered: {
-                                program.degerAta(11); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("İstanbul'da Yaşamış Edebiyatçılar")
-                            onTriggered: {
-                                program.degerAta(12); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Bireylere Dayatılan Cinsiyet")
-                            onTriggered: {
-                                program.degerAta(15); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-
-                        MenuItem {
-                            text: qsTr("Annesiz Büyüyen Şairler")
-                            onTriggered: {
-                                program.degerAta(18); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-
-                    Menu {
-                        title: qsTr("Coğrafya")
-
-                        MenuItem {
-                            text: qsTr("Küresel Isınma ve İklim Değişikliliği")
-                            onTriggered: {
-                                program.degerAta(14); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-
-                    Menu {
-                        title: qsTr("İngilizce")
-
-                        MenuItem {
-                            text: qsTr("Apptionary")
-                            onTriggered: {
-                                program.degerAta(17); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-
-                    Menu {
-                        title: qsTr("Matematik")
-
-                        MenuItem {
-                            text: qsTr("Olasılık Konusu Hakkında Oyun")
-                            onTriggered: {
-                                program.degerAta(21); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-
-                    Menu {
-                        title: qsTr("Almanca")
-
-                        MenuItem {
-                            text: qsTr("Almanca Sıfatlarının Öğretilmesi")
-                            onTriggered: {
-                                program.degerAta(24); // tamam
-                                proje_Ekrani.item.projeAc()
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        height: window.height / 14.22
+        menuItem1.onTriggered: openProject(1)
+        menuItem2.onTriggered: openProject(2)
+        menuItem3.onTriggered: openProject(3)
+        menuItem4.onTriggered: openProject(4)
+        menuItem5.onTriggered: openProject(5)
+        menuItem6.onTriggered: openProject(6)
+        menuItem7.onTriggered: openProject(7)
+        menuItem8.onTriggered: openProject(8)
+        menuItem9.onTriggered: openProject(9)
+        menuItem10.onTriggered: openProject(10)
+        menuItem11.onTriggered: openProject(11)
+        menuItem12.onTriggered: openProject(12)
+        menuItem13.onTriggered: openProject(13)
+        menuItem14.onTriggered: openProject(14)
+        menuItem15.onTriggered: openProject(15)
+        menuItem16.onTriggered: openProject(16)
+        menuItem17.onTriggered: openProject(17)
+        menuItem18.onTriggered: openProject(18)
+        menuItem19.onTriggered: openProject(19)
+        menuItem20.onTriggered: openProject(20)
+        menuItem21.onTriggered: openProject(21)
+        menuItem22.onTriggered: openProject(22)
+        menuItem23.onTriggered: openProject(23)
+        menuItem24.onTriggered: openProject(24)
     }
 
     footer: TabBar {
@@ -357,5 +135,11 @@ ApplicationWindow {
                 color: "grey"
             }
         }
+    }
+
+    function openProject(value)
+    {
+        program.degerAta(value);
+        proje_Ekrani.item.projeAc(value)
     }
 }
