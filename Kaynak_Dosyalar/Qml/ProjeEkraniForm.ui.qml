@@ -5,6 +5,7 @@ Image {
     id: root
     width: 480
     height: 640
+    property alias root: root
     property alias mouseArea: mouseArea
     property alias image: image
     property alias baslik: baslik
@@ -57,8 +58,8 @@ Image {
                 clip: true
                 anchors.leftMargin: 5
                 anchors.rightMargin: 5
-                anchors.bottomMargin: 5
                 anchors.topMargin: 5
+                anchors.bottomMargin: 5
 
                 Column {
                     id: scrollLayout
@@ -82,7 +83,7 @@ Image {
 
                     Label {
                         id: metin
-                        text: qsTr("\nSağ üst köşeden proje seçiniz...\n\nResime dokunarak resimi büyütebilrsiniz...")
+                        text: qsTr("\nSağ üst köşeden proje seçiniz...\n\nResime dokunarak resimi büyütebilirsiniz...")
                         wrapMode: Text.WordWrap
                         width: parent.width
                     }
