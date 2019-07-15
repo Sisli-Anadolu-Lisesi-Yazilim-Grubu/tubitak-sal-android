@@ -6,7 +6,7 @@ GirisEkraniForm {
     footer: StatusBar {
         RowLayout {
             Label {
-                text: qsTr("v1.5 Beta")
+                text: qsTr("v1.5.1 Beta")
                 font.pixelSize: 15
             }
         }
