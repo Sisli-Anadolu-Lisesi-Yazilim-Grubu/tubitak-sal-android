@@ -4,6 +4,7 @@ import QtQuick.Layouts 1.3
 
 ToolBar {
         id: toolbar
+        property alias toolButton: toolButton
         property alias menuItem1: menuItem1
         property alias menuItem2: menuItem2
         property alias menuItem3: menuItem3
@@ -33,15 +34,22 @@ ToolBar {
             anchors.fill: parent
 
             Label {
+                id: label
                 text: qsTr("TÜBİTAK 4006 ŞAL")
                 anchors.centerIn: parent
             }
 
             ToolButton {
-                text: qsTr("⋮")
+                id: toolButton
                 onClicked: menu.open()
                 anchors.right: parent.right
-                font.pixelSize: 25
+                height: parent.height
+
+                Image {
+                    id: toolButtonBackground
+                    source: "qrc:/resimler/resimler/actionButton.png"
+                    anchors.fill: parent
+                }
 
                 Menu {
                     id: menu
