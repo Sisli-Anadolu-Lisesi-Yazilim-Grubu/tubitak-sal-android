@@ -1,7 +1,7 @@
 #include <QString>
 
 /* 
-    v1.5 Beta
+    v1.5.1 Beta
 --------------------------
 	Samet Sevindik
 	Furkan Bağ
