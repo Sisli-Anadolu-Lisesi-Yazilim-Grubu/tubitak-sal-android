@@ -10,11 +10,9 @@ Page {
 
     Image {
         id: image
-        x: 40
-        y: 120
         anchors.centerIn: parent
-        source: "qrc:/resimler/resimler/sal-logo.jpg"
-        width: parent.width / 1.5
-        height: parent.height / 2
+        source: "qrc:/resimler/resimler/sal-logo.png"
+        width: parent.width / 1.25
+        height: parent.height / 2.1
     }
 }
