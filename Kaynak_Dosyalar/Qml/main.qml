@@ -8,10 +8,11 @@ ApplicationWindow {
     width: 480
     height: 640
     title: qsTr("TÜBİTAK 4006 ŞAL")
+    property var picture
+    property var pictureNo
 
-    Loader {
+    GirisEkrani {
         id: giris_Ekrani
-        source: "GirisEkrani.qml"
         anchors.fill: parent
 
         Timer {
@@ -47,32 +48,48 @@ ApplicationWindow {
         }
 
         Item {
-            id: first_page
+            id: firstPage
 
-            Loader {
+            ProjeEkrani {
                 id: proje_Ekrani
-                active: swipeView.isCurrentItem || swipeView.isNextItem || swipeView.isPreviousItem
-                source: "ProjeEkrani.qml"
                 anchors.fill: parent
+                mouseArea.onClicked: {
+                    swipeView.visible = false
+                    actionBar.visible = false
+                    tabBar.visible = false
+                    resimEkrani.visible = true
+                    openPicture()
+                }
             }
         }
 
         Item {
-            id: second_page
+            id: secondPage
 
-            Loader {
+            OkulEkrani {
                 id: okul_Ekrani
-                active: swipeView.isCurrentItem || swipeView.isNextItem || swipeView.isPreviousItem
-                source: "OkulEkrani.qml"
                 anchors.fill: parent
             }
+        }
+    }
+
+    ResimEkrani {
+        id: resimEkrani
+        visible: false
+        anchors.fill: parent
+
+        toolButton.onClicked: {
+            resimEkrani.visible = false
+            swipeView.visible = true
+            actionBar.visible = true
+            tabBar.visible = true
         }
     }
 
     header: ActionBar {
         id: actionBar
         visible: false
-        height: window.height / 14.22
+        height: toolButton.height
         menuItem1.onTriggered: openProject(1)
         menuItem2.onTriggered: openProject(2)
         menuItem3.onTriggered: openProject(3)
@@ -108,38 +125,34 @@ ApplicationWindow {
             id: tab
             text: qsTr("Projeler")
             font.pixelSize: window.height / 32
-            onClicked: {
-                tab_background.color = "#25258e"
-                tab1_background.color = "grey"
-            }
-
-            Rectangle {
-                id: tab_background
-                anchors.fill: parent
-                color: "#25258e"
-            }
         }
 
         TabButton {
             id: tab1
-            text: qsTr("Okul")
             font.pixelSize: window.height / 32
-            onClicked: {
-                tab1_background.color = "#25258e"
-                tab_background.color = "grey"
-            }
-
-            Rectangle {
-                id: tab1_background
-                anchors.fill: parent
-                color: "grey"
+            
+            Image {
+                id: backgroundImage
+                source: "qrc:/resimler/resimler/info.png"
+                width: parent.width / 3.5
+                height: parent.height - 10
+                anchors.centerIn: parent
             }
         }
     }
 
     function openProject(value)
     {
+        pictureNo = value
         program.degerAta(value);
-        proje_Ekrani.item.projeAc(value)
+        proje_Ekrani.projeAc(value)
+    }
+
+    function openPicture()
+    {
+        program.degerAta(pictureNo)
+        picture = "qrc:/proje_fotoraflari/proje_fotorafları/" + pictureNo + ".jpg"
+        resimEkrani.label.text = program.dondurBaslik()
+        resimEkrani.image.source = picture
     }
 }
