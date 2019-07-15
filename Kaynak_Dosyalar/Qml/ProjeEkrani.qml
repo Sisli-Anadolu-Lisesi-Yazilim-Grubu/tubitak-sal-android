@@ -13,9 +13,4 @@ ProjeEkraniForm {
         baslik.text = program.dondurBaslik()
         metin.text = program.dondurMetin().concat(program.dondurYapan())
     }
-
-    mouseArea.onClicked: {
-        console.log("Picture clicked!")
-        //TODO
-    }
 }
