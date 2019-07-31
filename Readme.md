@@ -5,7 +5,7 @@
 Şişli Anadolu Lisesi'nin TÜBİTAK 4006 ŞAL uygulamasıdır.
 
 
-
+Uygulamayı saltubitak.cf adresinden indirebilirsiniz.
 
 
 Bu uygulama Qt Framework kullanılarak yapılmıştır.
