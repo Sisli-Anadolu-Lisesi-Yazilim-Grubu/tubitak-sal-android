@@ -4,5 +4,5 @@
 **Sürüm**: v1.5.1 Beta<br>
 Uygulamayı [buradan](https://saltubitak.cf) indirebilirsiniz.<br>
 Bu uygulama **Qt Framework** kullanılarak yapılmıştır.<br>
-**İletişim**: SametHUB732@gmail.com
+**İletişim**: SametHUB732@gmail.com<br>
 **Lisans**: MIT
