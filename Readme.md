@@ -1,15 +1,8 @@
-﻿TÜBİTAK 4006 ŞAL v1.5.1 Beta
+# TÜBİTAK 4006 ŞAL 
 
-
-
-Şişli Anadolu Lisesi'nin TÜBİTAK 4006 ŞAL uygulamasıdır.
-
-
-Uygulamayı saltubitak.cf adresinden indirebilirsiniz.
-
-
-Bu uygulama Qt Framework kullanılarak yapılmıştır.
-
-
-
-İletişim: SametHUB732@gmail.com
+Şişli Anadolu Lisesi'nin TÜBİTAK 4006 ŞAL uygulamasıdır.<br>
+**Sürüm**: v1.5.1 Beta<br>
+Uygulamayı [buradan](https://saltubitak.cf) indirebilirsiniz.<br>
+Bu uygulama **Qt Framework** kullanılarak yapılmıştır.<br>
+**İletişim**: SametHUB732@gmail.com
+**Lisans**: MIT
