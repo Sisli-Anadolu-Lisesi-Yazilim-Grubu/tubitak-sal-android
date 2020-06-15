@@ -1,7 +1,7 @@
-# TÜBİTAK 4006 ŞAL 
+# TÜBİTAK ŞAL 
 
-Şişli Anadolu Lisesi'nin TÜBİTAK 4006 ŞAL uygulamasıdır.<br>
+Sişli Anadolu Lisesi'nin öğrencileri tarafından yapılan Tübitak projelerini gösteren uygulama.<br>
 **Sürüm**: v1.5.1 Beta<br>
 Uygulamayı [buradan](https://saltubitak.cf) indirebilirsiniz.<br>
 Bu uygulama **Qt Framework** kullanılarak yapılmıştır.<br>
-**İletişim**: SametHUB732@gmail.com
+**İletişim**: salyazilim2019@gmail.com
