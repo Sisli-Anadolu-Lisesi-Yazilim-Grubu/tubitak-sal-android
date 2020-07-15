@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/resimler">
-        <file>resimler/arkaplan.jpg</file>
-        <file>resimler/back.png</file>
-        <file>resimler/info.png</file>
-        <file>resimler/actionButton.png</file>
-        <file>resimler/sal-logo.png</file>
-    </qresource>
-</RCC>
