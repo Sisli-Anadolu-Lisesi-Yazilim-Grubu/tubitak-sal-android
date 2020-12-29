@@ -1,6 +1,6 @@
-# TÜBİTAK ŞAL 
+# Tubitak SAL
 
-Sişli Anadolu Lisesi'nin öğrencileri tarafından yapılan Tübitak projelerini gösteren uygulama.<br>
-**Sürüm**: v1.5.1 Beta<br>
-Uygulamayı [buradan](https://sisli-anadolu-lisesi-yazilim-grubu.github.io/tubitak-sal.github.io/) indirebilirsiniz.<br>
-**İletişim**: salyazilim2019@gmail.com
+That application introduces Tubitak science projects developed by Sisli Anatolian School's student.<br>
+**Version**: v2<br>
+You can download app via [this](https://github.com/Sisli-Anadolu-Lisesi-Yazilim-Grubu/tubitak-sal-android/releases/download/v2.0/app-release.apk).<br>
+**Contact**: salyazilim2019@gmail.com
